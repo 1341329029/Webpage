@@ -1,0 +1,475 @@
+<!doctype html>
+<html>
+<head>
+<title>果壳信息网</title>
+<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+<div class="main">
+	<div class="main2">
+	
+	</div>
+	<div class="main1">
+			<img class="main11" src="images/17.png"width="140px" height="60px">
+			<ul >
+			 <li><a href="index.html">科学人</a></li>
+     		 <li><a href="index.html">小组</a></li>
+     	 	 <li><a href="index.html">问答</a></li>
+     	 	 <li><a href="index.html">MOOC</a></li>
+     	 	 <li><a href="index.html">在行</a></li>
+			 <li><a href="index.html">万有市集</a></li>
+     	 	 <li>其他<img src="images/3.png"width="10px" height="10px">
+			 <ul>
+				 <li>小组</li>
+				 <li>小组</li>
+				 <li>小组</li>
+				 <li>小组</li>
+				 <li>小组</li>
+			 </ul>
+			 </li>
+     	 </ul>
+		 <div class="main13">
+			 <input class="main14" type="text">
+			 <a href="index.html"><img class="main15" src="images/1.png"width="22px" height="22px"></a>
+		 </div>
+	</div>
+	<div class="main3">
+		<div class="main31">
+		 <p>现在加入果壳网，一起记录科技新时代<p>
+		 <input class="main312" type="button" value="立即注册">
+		 <input class="main312" type="button" value="用户登录">
+		</div>
+		<div class="main32">
+			<ul >
+			 <li><span>联合登录:</span></li>
+     		 <li><a href="index.html"><img class="main321" src="images/4.png"width="25px" height="25px"></a></li>
+     	 	 <li><a href="index.html"><img class="main321" src="images/5.png"width="25px" height="25px"></a></li>
+     	 	 <li><a href="index.html"><img class="main321" src="images/6.png"width="25px" height="25px"></a></li>
+     	 	 <li><a href="index.html"><img class="main321" src="images/7.png"width="25px" height="25px"></a></li>
+     	 	 </ul>
+		</div>
+	</div>
+	<div class="main4">
+		<div class="main41">
+			<div class="main411">
+			<p>最新推荐</p>
+			   
+			</div>
+			<div class="main413">
+				<div class="main4131">
+					<p>这个女孩为什么这么可爱?</p>
+						 <ul>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+				</div>
+			</div>
+			<div class="main414">
+						<ul>
+							<li><a href="index.html">脉冲星导航，精度10米？别逗了！</a></li>
+							<li><a href="index.html">脉冲星导航最终精度可达10米，没工夫逗你</a></li>
+							<li><a href="index.html">XPNAV-1和脉冲星导航实验没有关系</a></li>
+							<li><a href="index.html">脉冲星导航，用纳税人钱搭建的“虚构幻景”</a></li>
+							<li><a href="index.html">大黄鱼：难看，好吃。</a></li>
+							<li><a href="index.html">真的有哦，能让食材跳起舞来的魔法！</a></li>
+							<li><a href="index.html">“男性避孕针即将面世”是怎么回事？</a></li>
+							<li><a href="index.html">“我们只能侥幸一睹动物的生活瞬间” </a></li>
+						</ul>
+			</div>
+		</div>
+		
+		<div class="main42">
+			<div class="main421">
+				<img class="main421" src="images/25.png"width="300px" height="100px">
+			</div>
+			<div class="main422">
+			<p>		热门小组<span>换一换</span></p>
+			</div>
+			<div class="main423">
+				<img class="main4231" src="images/37.png"width="50px" height="50px">
+				<p><a href="index.html">Geek笑点低</a> <img class="main4232" src="images/30.png"width="15px" height="15px">1085812人加入<br/><span>怎么找Geek笑点？=== ===笑点低</span> 
+				</p>
+
+
+
+			</div>
+			<div class="main423">
+				<img class="main4231" src="images/58.png"width="50px" height="50px">
+				<p><a href="index.html">谋杀 现场 法医 </a> 1085812人加入<br/><span>讨论内容可以是真实案例，也可以是；</span> 
+				</p>
+			</div>
+			<div class="main423">
+					<img class="main4231" src="images/14.png"width="50px" height="50px">
+					<p><a href="index.html">创业者基地 </a>  168690人加入 <br/><span>创业是年轻的动力，不想打工一辈子，自</span> 
+				</p>
+			</div>
+			  
+			  <div class="main422">
+			<p>		热门主题</p>
+			</div>
+			<div class="main423">
+				<img class="main4231" src="images/19.png"width="50px" height="50px">
+				<p><a href="index.html">Geek笑点低</a> <img class="main4232" src="images/30.png"width="15px" height="15px">1085812人加入<br/><span>怎么找Geek笑点？=== ===笑点低</span> 
+				</p>
+
+
+
+			</div>
+			<div class="main423">
+				<img class="main4231" src="images/20.png"width="50px" height="50px">
+				<p><a href="index.html">谋杀 现场 法医 </a> 1085812人加入<br/><span>讨论内容可以是真实案例，也可以是；</span> 
+				</p>
+			</div>
+			<div class="main423">
+					<img class="main4231" src="images/21.png"width="50px" height="50px">
+					<p><a href="index.html">创业者基地 </a>  168690人加入 <br/><span>创业是年轻的动力，不想打工一辈子，自</span> 
+				</p>
+			</div>
+			<div class="main423">
+				<img class="main4231" src="images/22.png"width="50px" height="50px">
+				<p><a href="index.html">谋杀 现场 法医 </a> 1085812人加入<br/><span>讨论内容可以是真实案例，也可以是；</span> 
+				</p>
+			</div>
+			<div class="main423">
+				<img class="main4231" src="images/23.png"width="50px" height="50px">
+				<p><a href="index.html">谋杀 现场 法医 </a> 1085812人加入<br/><span>讨论内容可以是真实案例，也可以是；</span> 
+				</p>
+			</div>
+		</div>
+		<div class="main43">
+			<div class="main411">
+				<p>热门问答</p>
+			   
+			</div>
+			<div class="main431">
+				<div class="main4311">
+					<div class="main4312">
+					科学.技术
+					</div>
+						
+						<div class="main4313">
+							<div class="main4315">
+						
+							</div>
+						</div>
+						<div class="main4316">
+							<a href="index.html">为什么歼20飞行的时候机翼会冒白烟？</a>
+							<p>飞机能飞的重要原因是机翼上表面是曲面，空气流... <span>详细</span></p>
+						</div>
+				</div>
+				 <ul>
+					<li><a href="index.html">手机摄影的RAW格式有没有意义？</a></li>
+					<li><a href="index.html">飞机设计成这样能起飞吗？飞得快吗？</a></li>
+					<li><a href="index.html">浇铸时发生爆炸是什么原因？这种事故...</a></li>
+					<li><a href="index.html">“男性避孕针即将面世”是怎么回事？</a></li>
+				</ul>
+
+
+			</div>
+			<div class="main431">
+				<div class="main4311">
+					<div class="main4312">
+					人文社科
+					</div>
+						
+						<div class="main4318">
+							<div class="main4319">
+						
+							</div>
+						</div>
+						<div class="main4316">
+							<a href="index.html">这场关于脉冲星导航的搏杀，你看明白...</a>
+							<p>最近几天，几位科学家在网络上围绕一颗“脉冲星导航<span>详细</span></p>
+						</div>
+				</div>
+				  <ul>
+					<li><a href="index.html">“WHO称长期无性生活是残疾”是怎...</a></li>
+					<li><a href="index.html">手术中该怎么防范肠道气体引燃的问题...</a></li>
+					<li><a href="index.html">营养参考值是什么？为啥钠的参考值超...</a></li>
+					<li><a href="index.html">蓝图为什么叫蓝图？因为是蓝色的吗？</a></li>
+				</ul>
+
+			</div>
+			<div class="main431">
+				<div class="main4311">
+					<div class="main4312">
+					生活娱乐
+					</div>
+						
+						<div class="main43110">
+							<div class="main43111">
+						
+							</div>
+						</div>
+						<div class="main4316">
+							<a href="index.html">如何挑甜嫩多汁的柚子？</a>
+							<p>尖不尖主要是和品种有关。如果在在同一品种内讨论， <span>详细</span></p>
+						</div>
+					<ul>
+						<li><a href="index.html">看色情作品，好处多还是坏处多？</a></li>
+						<li><a href="index.html">褪黑素能帮我睡好觉吗？</a></li>
+						<li><a href="index.html">别怪我沉迷肝游戏，谁让设计师懂心理</a></li>
+						<li><a href="index.html">晚上不睡，早上不起，你不是一个人</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="main431">
+				<div class="main4311">
+					<div class="main4312">
+					自然生态
+					</div>
+						
+						<div class="main43112">
+							<div class="main43113">
+						
+							</div>
+						</div>
+						<div class="main4316">
+							<a href="index.html">碳14能用来鉴定青铜器年代吗？</a>
+							<p>如果能确认某部分的渗碳来源是高温金属还原的二氧化碳成份， <span>详细</span></p>
+						</div>
+				</div>
+				 <ul>
+					<li><a href="index.html">橘子：冬天里的一汪酸甜</a></li>
+					<li><a href="index.html">猫奴必读：为啥猫主子总盯着你看？</a></li>
+					<li><a href="index.html">长征五号首发，中国跻身航天强国.</a></li>
+					<li><a href="index.html">约时间范围见面，如何确保见面且等待...</a></li>
+				</ul>
+
+			</div>
+			 <img class="main4332" src="images/18.png"width="685px" height="80px">
+		</div>
+		<div class="main45">
+					
+		<div class="main451">
+				<p>小组热帖</p><span>看黑科技与美欧如何并存</span>
+			   
+			</div>
+			<div class="main431">
+				<div class="main4311">
+					<div class="main4312">
+					科技
+					</div>
+						
+						<div class="main4513">
+							<div class="main4515">
+						
+							</div>
+						</div>
+						<div class="main4316">
+							<a href="index.html">为什么歼20飞行的时候机翼会冒白烟？</a>
+							<p>飞机能飞的重要原因是机翼上表面是曲面，空气流... <span>详细</span></p>
+						</div>
+				</div>
+				 <ul>
+					<li><a href="index.html">手机摄影的RAW格式有没有意义？</a></li>
+					<li><a href="index.html">飞机设计成这样能起飞吗？飞得快吗？</a></li>
+					<li><a href="index.html">浇铸时发生爆炸是什么原因？这种事故...</a></li>
+					<li><a href="index.html">“男性避孕针即将面世”是怎么回事？</a></li>
+				</ul>
+
+
+			</div>
+			<div class="main431">
+				<div class="main4311">
+					<div class="main4312">
+					人文
+					</div>
+						
+						<div class="main4518">
+							<div class="main4519">
+						
+							</div>
+						</div>
+						<div class="main4316">
+							<a href="index.html">这场关于脉冲星导航的搏杀，你看明白...</a>
+							<p>最近几天，几位科学家在网络上围绕一颗“脉冲星导航<span>详细</span></p>
+						</div>
+				</div>
+				  <ul>
+					<li><a href="index.html">“WHO称长期无性生活是残疾”是怎...</a></li>
+					<li><a href="index.html">手术中该怎么防范肠道气体引燃的问题...</a></li>
+					<li><a href="index.html">营养参考值是什么？为啥钠的参考值超...</a></li>
+					<li><a href="index.html">蓝图为什么叫蓝图？因为是蓝色的吗？</a></li>
+				</ul>
+
+			</div>
+			<div class="main431">
+				<div class="main4311">
+					<div class="main4312">
+					生活
+					</div>
+						
+						<div class="main45110">
+							<div class="main45111">
+						
+							</div>
+						</div>
+						<div class="main4316">
+							<a href="index.html">如何挑甜嫩多汁的柚子？</a>
+							<p>尖不尖主要是和品种有关。如果在在同一品种内讨论， <span>详细</span></p>
+						</div>
+					<ul>
+						<li><a href="index.html">看色情作品，好处多还是坏处多？</a></li>
+						<li><a href="index.html">褪黑素能帮我睡好觉吗？</a></li>
+						<li><a href="index.html">别怪我沉迷肝游戏，谁让设计师懂心理</a></li>
+						<li><a href="index.html">晚上不睡，早上不起，你不是一个人</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="main431">
+				<div class="main4311">
+					<div class="main4312">
+					娱乐
+					</div>
+						
+						<div class="main45112">
+							<div class="main45113">
+						
+							</div>
+						</div>
+						<div class="main4316">
+							<a href="index.html">碳14能用来鉴定青铜器年代吗？</a>
+							<p>如果能确认某部分的渗碳来源是高温金属还原的二氧化碳成份， <span>详细</span></p>
+						</div>
+				</div>
+				 <ul>
+					<li><a href="index.html">橘子：冬天里的一汪酸甜</a></li>
+					<li><a href="index.html">猫奴必读：为啥猫主子总盯着你看？</a></li>
+					<li><a href="index.html">长征五号首发，中国跻身航天强国.</a></li>
+					<li><a href="index.html">约时间范围见面，如何确保见面且等待...</a></li>
+				</ul>
+
+			</div>
+		</div>
+		<div class="main46">
+					<span>社区热点</span>
+					<ul>
+						<li><a href="index.html">看色情作品，好处多还是坏处多？</a></li>
+						<li><a href="index.html">褪黑素能帮我睡好觉吗？</a></li>
+						<li><a href="index.html">别怪我沉迷肝游戏，谁让设计师懂心理</a></li>
+						<li><a href="index.html">晚上不睡，早上不起，你不是一个人</a></li>
+						<li><a href="index.html">看色情作品，好处多还是坏处多？</a></li>
+						<li><a href="index.html">褪黑素能帮我睡好觉吗？</a></li>
+					</ul>
+		</div>
+		<div class="main47">
+					<p>果壳专区<span>更多专区</span></p>
+					<ul>
+						<li><a href="index.html">看色情作品，好处多还是坏处多？</a></li>
+						<li><a href="index.html">褪黑素能帮我睡好觉吗？</a></li>
+						<li><a href="index.html">别怪我沉迷肝游戏，谁让设计师懂心理</a></li>
+						<li><a href="index.html">晚上不睡，早上不起，你不是一个人</a></li>
+						<li><a href="index.html">看色情作品，好处多还是坏处多？</a></li>
+						<li><a href="index.html">褪黑素能帮我睡好觉吗？</a></li>
+						<li><a href="index.html">看色情作品，好处多还是坏处多？</a></li>
+						<li><a href="index.html">褪黑素能帮我睡好觉吗？</a></li>
+						<li><a href="index.html">别怪我沉迷肝游戏，谁让设计师懂心理</a></li>
+						<li><a href="index.html">晚上不睡，早上不起，你不是一个人</a></li>
+						<li><a href="index.html">看色情作品，好处多还是坏处多？</a></li>
+					</ul>
+			
+		</div>
+		<div class="main48">
+				<div class="main481">
+					<a  class="main4811"href="index.html">关注微信公众号
+					<span></span></a>
+					<a  class="main4812"href="index.html">关注微博<span></span></a>
+				</div>
+				<div class="main482">
+					<span>果壳精选</span>
+					<div class="main4822">
+						<a  class="main4823"href="index.html">
+					<span></span></a>
+					<a  class="main4824"href="index.html"><span></span></a>
+					<p class="main4825">iPhone</p>
+					<p class="main4826">Android</p>
+					</div>
+					<img class="main4821" src="images/65.png"width="100px" height="115px">
+				</div>
+		</div>
+		<div class="main49">
+				<div class="main451">
+				<p>十五言</p>
+			   
+			</div>
+			<div class="main431">
+				<div class="main4311">
+					<div class="main4312">
+					科技
+					</div>
+						
+						<div class="main4913">
+							<div class="main4915">
+						
+							</div>
+						</div>
+						<div class="main4316">
+							<a href="index.html">为什么歼20飞行的时候机翼会冒白烟？</a>
+							<p>飞机能飞的重要原因是机翼上表面是曲面，空气流... <span>详细</span></p>
+						</div>
+				</div>
+				 <ul>
+					<li><a href="index.html">手机摄影的RAW格式有没有意义？</a></li>
+					<li><a href="index.html">飞机设计成这样能起飞吗？飞得快吗？</a></li>
+					<li><a href="index.html">浇铸时发生爆炸是什么原因？这种事故...</a></li>
+					<li><a href="index.html">“男性避孕针即将面世”是怎么回事？</a></li>
+				</ul>
+
+
+			</div>
+			<div class="main431">
+				<div class="main4311">
+					<div class="main4312">
+					人文
+					</div>
+						
+						<div class="main4918">
+							<div class="main4919">
+						
+							</div>
+						</div>
+						<div class="main4316">
+							<a href="index.html">这场关于脉冲星导航的搏杀，你看明白...</a>
+							<p>最近几天，几位科学家在网络上围绕一颗“脉冲星导航<span>详细</span></p>
+						</div>
+				</div>
+				  <ul>
+					<li><a href="index.html">“WHO称长期无性生活是残疾”是怎...</a></li>
+					<li><a href="index.html">手术中该怎么防范肠道气体引燃的问题...</a></li>
+					<li><a href="index.html">营养参考值是什么？为啥钠的参考值超...</a></li>
+					<li><a href="index.html">蓝图为什么叫蓝图？因为是蓝色的吗？</a></li>
+				</ul>
+
+			</div>
+		</div>
+		<div class="main0">
+		</div>
+		<div class="maina1">
+			<ul >
+			 <li><a href="index.html">关于我们</a></li>
+     		 <li><a href="index.html"> 加入果壳 </a></li>
+     	 	 <li><a href="index.html">媒体报道</a></li>
+     	 	 <li><a href="index.html">帮助中心</a></li>
+     	 	 <li><a href="index.html">果壳活动</a></li>
+			 <li><a href="index.html">免责声明</a></li>
+			  <li><a href="index.html">联系我们</a></li>
+			 <li><a href="index.html">移动版</a></li>
+			 <li><a href="index.html">移动应用 </a></li>
+     	 	 </ul>
+		</div>
+		<div class="maina2">
+	<p>2016果壳网京ICP证100430号京网文[2015] 0609-239号新出发京零字东150005号 </p>
+<span><img class="maina21" src="images/40.png"width="16px" height="16px">京公网安备11010502007133号 <span>
+
+		</div>
+	</div>
+	
+</div>
+
+
+</body>
+</html>

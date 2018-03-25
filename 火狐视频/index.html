@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <title>火狐视频</title>
+    <script type="text/javascript">
+    function $(id) {
+      return typeof id==='string'?document.getElementById(id):id;
+    }
+			window.onload=function() {
+					var main=document.getElementById('main');
+				  var list=document.getElementById('list');
+					var button=document.getElementById('button').getElementsByTagName('span');
+					var prev=document.getElementById('prev');
+					var next=document.getElementById('next');
+					var index = 1;
+					var timer;
+          var titles=$('notice-tit').getElementsByTagName('li'),
+              divs=$('notice-con').getElementsByTagName('div');
+					function showButton() {
+							for (var i = 0; i < button.length; i++) {
+								if (button[i].className == 'on') {
+									 button[i].className = '';
+									break;
+								}
+
+							}
+						button[index - 1].className ='on';
+						}
+
+					function animate(offset) {
+						var newLeft= parseInt(list.style.left) + offset;
+						var time=300;
+						var interval=10;
+						var speed=offset/(time/interval);
+
+						function  go() {
+							if ((speed < 0&& parseInt(list.style.left)>newLeft)||(speed > 0 &&parseInt(list.style.left)<newLeft)) {
+									list.style.left=parseInt(list.style.left)+ speed +'px';
+									setTimeout(go,interval);
+							}
+							else {
+								list.style.left = newLeft + 'px';
+								if (newLeft>-1010) {
+										list.style.left=-5050+ 'px';
+								}
+								if (newLeft<-5050) {
+										list.style.left=-1010 + 'px';
+								}
+							}
+
+						}
+							go();
+					}
+					function play() {
+						timer = setInterval(function () {
+							next.onclick();
+						},3000);
+					}
+					function stop() {
+						clearInterval(timer);
+
+					}
+					next.onclick = function () {
+						if (index ==5) {
+							index =1;
+						}
+						else {
+							index += 1;
+						}
+						showButton();
+						animate(-1010);
+
+					}
+					prev.onclick = function () {
+						if (index ==1) {
+							index =5;
+
+						}
+						else {
+							index -= 1;
+						}
+						showButton();
+						animate(1010);
+
+					}
+					for (var i = 0; i < button.length; i++) {
+						button[i].onclick= function () {
+							if (this.className =='on') {
+								return;
+							}
+							var myIndex =parseInt(this.getAttribute('index'));
+							var offset  = -1010 * (myIndex - index);
+
+							animate(offset);
+							index = myIndex;
+							showButton();
+						}
+					}
+					first.onmouseover=stop;
+					first.onmouseout=play;
+          if (titles.length!=divs.length)
+            return ;
+            for (var i=0; i <titles.length; i++) {
+              titles[i].id=i;
+              titles[i].onmouseover=function () {
+                for (var j = 0; j < titles.length; j++) {
+                  titles[j].className ='';
+                  divs[j].style.display='none';
+                }
+              this.className='select';
+              divs[this.id].style.display='block';
+
+              }
+            }
+			}
+		</script>
+  </head>
+  <body>
+    <div id="main">
+      <div id="main1">
+        <img id="main11"src="images/50.png" width="150px" height="40px">
+        <ul>
+          <li><a href="#">火狐主页</a><li/>
+          <li><a href="#">火狐中文网</a><li/>
+          <li><a href="#">火狐社区</a><li/>
+        </ul>
+      </div>
+      <div id="yang">
+        <div id="first">
+
+  			<div id="list"style="left:-1010px">
+          <img src="images/5.png">
+          <img src="images/1.png">
+          <img src="images/2.png" >
+          <img src="images/3.png" >
+          <img src="images/4.png" >
+          <img src="images/5.png" >
+          <img src="images/1.png" >
+
+  			</div>
+  			<div id="button">
+  				<span index="1"></span>
+  				<span index="2"></span>
+  				<span index="3"></span>
+  				<span index="4"></span>
+  				<span index="5"></span>
+  			</div>
+  			<a href="javascript:;" id="prev" class="arrow"><img class="main3" src="images/99.png"width="40px"height="40px"></a>
+  			<a href="javascript:;" id="next" class="arrow"><img class="main2" src="images/66.png"width="40px"height="40px"></a>
+  		</div>
+    </div>
+    <div  id="notice" class="notice">
+      <div id="notice-tit" class="notice-tit">
+        <ul>
+          <li id="0"class="select"><a  href="#"><span>新闻</span></a></li>
+          <li id="1"class="select1"><a  href="#">国内</a></li>
+          <li id="2"class="select1"><a  href="#">国际</a></li>
+          <li id="3"class="select1"><a  href="#">军事</a></li>
+          <li id="4"class="select1"><a  href="#">社会</a></li>
+          <li id="5"class="select1"><a  href="#">科技</a></li>
+          <li id="6"class="select1"><a  href="#">评论</a></li>
+          <em><a  href="#">更多</a></em>
+
+        </ul>
+      </div>
+      <div id="notice-con" class="notice-con">
+
+      <div class="mod"style="display:block">
+        <ul>
+          <li> <a href="#"><img src="images/10.png" width="180px" height="120px">
+            美丽的夜景人陶醉！
+          </a></li>
+          <li> <a href="#"><img src="images/12.png" width="180px" height="120px">
+            美丽的夜景让人陶醉！
+          </a></li>
+          <li> <a href="#"><img src="images/12.png" width="180px" height="120px">
+            美丽的夜景让人陶醉！
+          </a></li>
+          <li> <a href="#"><img src="images/12.png" width="180px" height="120px">
+            美丽的夜景让人陶醉！
+          </a></li>
+          <li> <a href="#"><img src="images/12.png" width="180px" height="120px">
+            美丽的夜景让人陶醉！
+          </a></li>
+          <li> <a href="#"><img src="images/12.png" width="180px" height="120px">
+            美丽的夜景让人陶醉！
+          </a></li>
+          <li> <a href="#"><img src="images/12.png" width="180px" height="120px">
+            美丽的夜景让人陶醉！
+          </a></li>
+          <li> <a href="#"><img src="images/12.png" width="180px" height="120px">
+            美丽的夜景让人陶醉！
+          </a></li>
+        </ul>
+        </div>
+
+          <div class="mod"style="display:none">
+            <ul>
+              <li> <a href="#"><img src="images/12.png" width="180px" height="120px">
+                美丽的夜
+              </a></li>
+              <li> <a href="#"><img src="images/13.png" width="180px" height="120px">
+                美丽的夜景让人陶醉！
+              </a></li>
+              <li> <a href="#"><img src="images/13.png" width="180px" height="120px">
+                美丽的夜景让人陶醉！
+              </a></li>
+              <li> <a href="#"><img src="images/13.png" width="180px" height="120px">
+                美丽的夜景让人陶醉！
+              </a></li>
+              <li> <a href="#"><img src="images/13.png" width="180px" height="120px">
+                美丽的夜景让人陶醉！
+              </a></li>
+              <li> <a href="#"><img src="images/13.png" width="180px" height="120px">
+                美丽的夜景让人陶醉！
+              </a></li>
+              <li> <a href="#"><img src="images/13.png" width="180px" height="120px">
+                美丽的夜景让人陶醉！
+              </a></li>
+              <li> <a href="#"><img src="images/13.png" width="180px" height="120px">
+                美丽的夜景让人陶醉！
+              </a></li>
+            </ul>
+            </div>
+            <div class="mod"style="display:none">
+              <ul>
+                <li> <a href="#"><img src="images/13.png" width="180px" height="120px">
+                  美丽的夜景让人陶醉！
+                </a></li>
+                <li> <a href="#"><img src="images/14.png" width="180px" height="120px">
+                  美丽的夜景让人陶醉！
+                </a></li>
+                <li> <a href="#"><img src="images/14.png" width="180px" height="120px">
+                  美丽的夜景让人陶醉！
+                </a></li>
+                <li> <a href="#"><img src="images/14.png" width="180px" height="120px">
+                  美丽的夜景让人陶醉！
+                </a></li>
+                <li> <a href="#"><img src="images/14.png" width="180px" height="120px">
+                  美丽的夜景让人陶醉！
+                </a></li>
+                <li> <a href="#"><img src="images/14.png" width="180px" height="120px">
+                  美丽的夜景让人陶醉！
+                </a></li>
+                <li> <a href="#"><img src="images/14.png" width="180px" height="120px">
+                  美丽的夜景让人陶醉！
+                </a></li>
+                <li> <a href="#"><img src="images/14.png" width="180px" height="120px">
+                  美丽的夜景让人陶醉！
+                </a></li>
+              </ul>
+              </div>
+              <div class="mod"style="display:none">
+                <ul>
+                  <li> <a href="#"><img src="images/14.png" width="180px" height="120px">
+                    美丽的夜景让人陶醉！
+                  </a></li>
+                  <li> <a href="#"><img src="images/15.png" width="180px" height="120px">
+                    美丽的夜景让人陶醉！
+                  </a></li>
+                  <li> <a href="#"><img src="images/15.png" width="180px" height="120px">
+                    美丽的夜景让人陶醉！
+                  </a></li>
+                  <li> <a href="#"><img src="images/15.png" width="180px" height="120px">
+                    美丽的夜景让人陶醉！
+                  </a></li>
+                  <li> <a href="#"><img src="images/15.png" width="180px" height="120px">
+                    美丽的夜景让人陶醉！
+                  </a></li>
+                  <li> <a href="#"><img src="images/15.png" width="180px" height="120px">
+                    美丽的夜景让人陶醉！
+                  </a></li>
+                  <li> <a href="#"><img src="images/15.png" width="180px" height="120px">
+                    美丽的夜景让人陶醉！
+                  </a></li>
+                  <li> <a href="#"><img src="images/15.png" width="180px" height="120px">
+                    美丽的夜景让人陶醉！
+                  </a></li>
+                </ul>
+                </div>
+                <div class="mod"style="display:none">
+                  <ul>
+                    <li> <a href="#"><img src="images/15.png" width="180px" height="120px">
+                      美丽的夜景让人陶醉！
+                    </a></li>
+                    <li> <a href="#"><img src="images/16.png" width="180px" height="120px">
+                      美丽的夜景让人陶醉！
+                    </a></li>
+                    <li> <a href="#"><img src="images/16.png" width="180px" height="120px">
+                      美丽的夜景让人陶醉！
+                    </a></li>
+                    <li> <a href="#"><img src="images/16.png" width="180px" height="120px">
+                      美丽的夜景让人陶醉！
+                    </a></li>
+                    <li> <a href="#"><img src="images/16.png" width="180px" height="120px">
+                      美丽的夜景让人陶醉！
+                    </a></li>
+                    <li> <a href="#"><img src="images/16.png" width="180px" height="120px">
+                      美丽的夜景让人陶醉！
+                    </a></li>
+                    <li> <a href="#"><img src="images/16.png" width="180px" height="120px">
+                      美丽的夜景让人陶醉！
+                    </a></li>
+                    <li> <a href="#"><img src="images/16.png" width="180px" height="120px">
+                      美丽的夜景让人陶醉！
+                    </a></li>
+                  </ul>
+                  </div>
+                  <div class="mod"style="display:none">
+                    <ul>
+                      <li> <a href="#"><img src="images/16.png" width="180px" height="120px">
+                        美丽的夜景让人陶醉！
+                      </a></li>
+                      <li> <a href="#"><img src="images/17.png" width="180px" height="120px">
+                        美丽的夜景让人陶醉！
+                      </a></li>
+                      <li> <a href="#"><img src="images/17.png" width="180px" height="120px">
+                        美丽的夜景让人陶醉！
+                      </a></li>
+                      <li> <a href="#"><img src="images/17.png" width="180px" height="120px">
+                        美丽的夜景让人陶醉！
+                      </a></li>
+                      <li> <a href="#"><img src="images/17.png" width="180px" height="120px">
+                        美丽的夜景让人陶醉！
+                      </a></li>
+                      <li> <a href="#"><img src="images/17.png" width="180px" height="120px">
+                        美丽的夜景让人陶醉！
+                      </a></li>
+                      <li> <a href="#"><img src="images/17.png" width="180px" height="120px">
+                        美丽的夜景让人陶醉！
+                      </a></li>
+                      <li> <a href="#"><img src="images/17.png" width="180px" height="120px">
+                        美丽的夜景让人陶醉！
+                      </a></li>
+                    </ul>
+                    </div>
+                    <div class="mod"style="display:none">
+                      <ul>
+                        <li> <a href="#"><img src="images/17.png" width="180px" height="120px">
+                          美丽的夜景让人陶醉！
+                        </a></li>
+                        <li> <a href="#"><img src="images/18.png" width="180px" height="120px">
+                          美丽的夜景让人陶醉！
+                        </a></li>
+                        <li> <a href="#"><img src="images/18.png" width="180px" height="120px">
+                          美丽的夜景让人陶醉！
+                        </a></li>
+                        <li> <a href="#"><img src="images/18.png" width="180px" height="120px">
+                          美丽的夜景让人陶醉！
+                        </a></li>
+                        <li> <a href="#"><img src="images/18.png" width="180px" height="120px">
+                          美丽的夜景让人陶醉！
+                        </a></li>
+                        <li> <a href="#"><img src="images/18.png" width="180px" height="120px">
+                          美丽的夜景让人陶醉！
+                        </a></li>
+                        <li> <a href="#"><img src="images/18.png" width="180px" height="120px">
+                          美丽的夜景让人陶醉！
+                        </a></li>
+                        <li> <a href="#"><img src="images/18.png" width="180px" height="120px">
+                          美丽的夜景让人陶醉！
+                        </a></li>
+                      </ul>
+                      </div>
+
+    </div>
+  </div>
+  <div id="home">
+    <ul>
+      <li><a href="#">意见反馈<span>|</span></a></li>
+      <li><a href="#">关于我们<span>|</span></a></li>
+      <li><a href="#">联系我们<span>|</span></a></li>
+      <li><a href="#">职业机会<span>|</span></a></li>
+      <li><a href="#">在线反馈<span>|</span></a></li>
+      <li><a href="#">火狐官网</a></li>
+    </ul>
+    <p class="io">火狐视频内容源于互联网视频网站，不代表火狐赞成该视频网站的内容或立场</p>
+    <p class="ip">Copyright ©2011 Mozilla Firefox.北京谋智火狐信息技术有限公司 版权所有.京ICP备11011334号-1</p>
+  </div>
+</div>
+  </body>
+</html>﻿

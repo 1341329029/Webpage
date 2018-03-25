@@ -1,0 +1,154 @@
+<!doctype html>
+<html>
+<head>
+<title >北华</title>
+<style type="text/css">
+.asd{
+
+	color:red;
+	border:6px;
+width:1500px;
+height:30px;
+float:center;
+
+}
+.azs{
+
+border:6px ;
+width:600px;
+height:800px;
+float:left;
+}
+.aqwe{
+ color:green;
+ border:1px;
+ width:200px;
+ height:300px;
+ float:center;
+}
+.asd>a{
+	color:black
+	font-size:25px
+
+}
+.qwert{
+color:yellow
+border:1px ;
+width:900px;
+height:700px;
+}
+.ewq{
+border:2px  ;
+width:800px;
+height:800px;
+float:right;
+}
+</style>
+</head>
+
+<body style="background-image:url(888.jpg)" >
+<h1 style="text-align:center">北华校园网</h1>
+<div class="asd">
+<center>
+	<a href="http://www.beihua.edu.cn/html/xuexiaogaikuang/xuexiaojianjie/"><b>学校概况</b></a>
+	<a href="http://www.beihua.edu.cn/html/guanlijigou/dangzhengjigou/"><b>管理机构<b></a>
+	<a href="http://www.beihua.edu.cn/html/jiaoyandanwei/jiaoxuedanwei/"><b>教学单位<b></a>
+	<a href="http://kyc.beihua.edu.cn/"><b>科学研究<b></a>	
+	<a href="http://www.beihua.edu.cn/html/shiziduiwu/youxiurencai/"><b>师资队伍<b></a>
+	<a href="http://www.beihua.edu.cn/html/zhaoshengjiuye/"><b>招生就业<b></a>
+	<a href="http://202.98.20.203:8022/"><b>校园生活<b></a>
+	<a href="http://osc.beihua.edu.cn/New_Web/index.asp"><b>国际交流<b></a>
+	<a href="http://www.beihua.edu.cn/html/jiaoxuexitong/zonghejiaowu/"><b>教学管理<b></a>
+	<a href="http://www.beihua.edu.cn/html/guizhangzhidu/xuexiaowenjian/"><b>校务公开<b></a>
+	<a href="http://www.beihua.edu.cn/html/fuwuzhinan/xiaoqudaohang/"><b>后勤工作<b></a>
+	</center>
+</div>
+
+
+<div class="azs">
+<div class="aqwe">
+<img src="987.jpg"width="150px" height="200px">
+<p style="color:blue"><b>李延忠，男，1965年3月生，汉族，中共党员，在职研究生学历。
+		现任北华大学校长。</b></p>		
+	</div>
+	北华大学（Beihua University），简称北华，坐落在吉林省吉林市，是吉林省省属规模最大的综合性重点大学，“卓越医生教育培养计划”试点高校，国家首批卓越农林人才教育培养计划改革试点高校。
+1999年经教育部批准，原吉林师范学院（1906年清政府创办，省立院校，中国第一批师范院校）、吉林医学院（1928年孙宗尧创办，省立院校）、吉林林学院（1952年吉林省创建，省立院校）、吉林电气化高等专科学校（1920年创建，中国冶金部直属院校）合并组建成北华大学。
+截至2015年10月，学校有东、南、北三个校区，占地面积269万平方米（含实验实习基地），建筑面积80万平方米。教学科研仪器设备总值2.87亿元，馆藏图书307.8万册。学校有各类全日制在校生25296人，成人教育在籍学生16814人。学校设有80个本科专业，16个硕士学位授权一级学科点，7个硕士学位授权二级学科点
+<br/>
+<br/>
+<br/>
+<br/>
+<marquee style="font-size:30px;">北华大学欢迎你！</marquee>
+	</div>
+<div class="ewq">
+<input  type="checkbox">北华<br/>
+<input  type="radio">北华<br/>
+
+	帐号：<input  type="text"><br/>
+    密码：<input  type="tpassword">
+<input  type="reset" value="重置">
+<input  type="submit" value="提交">	
+<select>
+<option value="QQ">QQ</option>
+<option value="微信">微信</option>
+<option value="momo">momo</option>
+<option value="人人">人人</option>
+</select>
+<br/>
+<br/>
+<br/>
+<pstyle="color:blue;font-size:20px; >
+<br/>校歌
+《北华之歌》 ------作词：易茗；作曲：雷蕾<br/>
+ 
+北华大学 校歌 <br/>
+崇德尚学，自强力行，北华之歌同声传唱。<br/>
+有所作为，有所担当，一片沃土桃李芬芳。<br/>
+难忘百年风云岁月，同心共举来日辉煌。<br/>
+接过前辈留下的宝藏，让这里发出耀眼光芒！<br/>
+崇德尚学，自强力行，北华之歌放飞理想。<br/>
+展望未来，勇敢开创，我们的天地无限宽广！<br/>
+崇德尚学，自强力行，北华之巅，放飞理想。<br/>
+展望未来，勇敢开创，我们的天地无限宽广！<br/> 
+<br/>
+</p>
+<table border="2px">
+<tr>
+	<th>招生类别 </th>
+	<th>联系电话 </th>
+	<th>联系网站 </th>
+	
+	</tr>
+	
+<tr>
+	<td>研究生招生</td>
+	<td>0432-64608053</td>
+	<td>　进入北华大学研究生工作部网站</td>
+	</tr>
+	<tr>
+	<td>本科生招生　</td>
+	<td>0432-64608596　</td>
+	<td>进入北华大学招生办网站</td>
+	</tr>
+	<tr>
+	<td>成人教育招生</td>
+	<td>0432-64602741 64602115 </td>
+	<td>进入北华大学成人与继续教育网站</td>
+	</tr>
+	<tr>
+	<td>来华留学招生</td>
+	<td>0432-64608517</td>
+	<td>进入北华大学来华留学招生网站</td>
+	</tr>
+	<tr>
+	<td>出国留学招生</td>
+	<td>0432-64608507 64608508 </td>
+	<td>进入北华大学出国留学服务中心网站</td>
+	</tr>
+
+</div>
+
+
+
+</body>
+</html>

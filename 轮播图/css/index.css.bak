@@ -1,0 +1,15 @@
+.main{
+overflow:hidden;
+width:720px;
+height:450px;
+position:relative;
+}
+.list:{
+width:4200px;
+height:450px;
+position:absolute;
+z-index:1;
+}
+.list img{
+float:left;
+}

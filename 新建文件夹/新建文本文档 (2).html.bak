@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<title >佟可燃</title>
+</head>
+<!--<style type="text/css">
+p{
+font-size:50px;
+color:red
+}
+
+</style>-->
+<link href="666.css" rel="stylesheet" type="text/css" />
+<body>
+<h1 style="text-align:center;color:blue">佟可燃的个人简历</h1>
+<table style="color:yellow;background-color:green;font size="6";border="1" cellpadding="10">
+<caption>简历如下</caption>
+<tr>
+<th>姓名</th>
+<th>年龄</th>
+<th>性别</th>
+<th>爱好</th>
+</tr>
+<tr>
+<td>佟可燃</td>
+<td>19</td>
+<td>男</td>
+<td>女</td>
+</tr>
+<img src="9999.jpg"align="bottom"width="800" height="600" >
+<marquee style="font-size:30px;">燃哥金句：我太累了！</marquee>
+<p><h1>燃哥优点</h1></p>
+<ol>
+<li>哥哥太多</li>
+<li>哥哥们太爱他了</li>
+<li>哥哥们对他有点太好了</li>
+<input  type="text"><br/>
+<input  type="submit"><br/>
+<input  type="text"><br/>
+<input  type="button" value="登录并答题 "style="color:red"><br/>
+
+<input  type="checkbox">好人<br/>
+<input  type="radio">佟可燃是好人<br/>
+<select>
+<option value="看书">看书</option>
+<option value="写字">写字</option>
+<option value="问题">问题</option>
+<option value="看电视">看电视</option>
+</select>
+
+姓名：<input  type="text">
+密码：<input  type="tpassword">
+<input  type="reset" value="重置">
+<input  type="submit" value="提交">
+	
+<p>据新加坡《联合早报》网站9月30日报道，中国国家卫生计生委日前召开加强生育全程基本医疗保健服务视频会议，
+部署加强生育全程基本医疗保健服务。会议披露的数据显示，2015年全国孕产妇死亡率和婴儿死亡率，分别下降到20.1/10万和8.1%，
+比2000年分别下降62.1%和74.8%。但今年上半年中国孕妇死亡率不跌反升，比2015年同期上升30.6%，与2014年同期基本持平。
+国家卫计委副主任马晓伟表示，孕产妇和婴儿死亡率经过多年快速下降，逐渐进入到平台期，降低的难度加大。
+报道称，目前还无法确切证实孕产妇死亡率上升与“全面二孩”政策实施有关，但有医学界人士认为，政策加剧了妇产医疗资源的供求矛盾，
+同时生育年龄过大等因素也会增加孕产妇二次怀胎的健康风险。
+香港《经济日报》网站9月30日刊登题为《高龄拼生二孩、医疗资源短缺 内地产妇死亡率升3成》的报道称，医学界人士认为，全面二孩政策放开后
+，加剧妇产医疗资源供求失衡，高龄产妇也可能与孕妇死亡率增加有关。</p>
+	
+</body>
+</html>

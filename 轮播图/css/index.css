@@ -1,0 +1,53 @@
+#main{
+overflow:hidden;
+width:720px;
+height:450px;
+position:relative;
+float: left;
+margin-left: 500px;
+}
+#list{
+  width: 4200px;
+  height: 450px;
+  position: absolute;
+  z-index: 1;
+}
+#list img{
+  float: left;
+  width: 720px;
+  height: 450px;
+}
+#button{
+  width:250px;
+  height: 30px;
+  position: absolute;
+  margin-left: 220px;
+  margin-top: 400px;
+  z-index: 2;
+}
+#button span{
+  width:28px;
+  height:28px;
+border: 1px solid black;
+  float: left;
+  border-radius: 15px;
+  margin-left:20px;
+  cursor: pointer;
+}
+#button .on{
+  background:orangered;
+}
+.main1{
+  float: left;
+  margin-left:20px;
+  margin-top: 200px;
+  z-index: 3;
+  position: absolute;
+}
+.main2{
+  margin-left:630px;
+  margin-top: 200px;
+  float: left;
+  z-index: 3;
+  position: absolute;
+}

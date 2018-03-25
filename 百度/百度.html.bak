@@ -1,0 +1,56 @@
+<!dcotype html>
+<html>
+<head>
+<title>百度</title>
+<link rel="stylesheet" type="text/css" href="css/reed.css">
+</head>
+<body>
+
+	<div class="main">
+	<h1><center>百度工具有哪些！</center></h1>
+			<div class="main1">
+
+			</div> 
+			<div class="main2">
+				<ul>
+				<li><a href="http://music.baidu.com/">百度音乐</a>
+				<ul>
+				<li><a href="index.html">古典音乐</a></li>
+     	 	 	<li><a href="index.html">轻音乐</a></li>
+     	 	 	<li><a href="index.html">摇滚乐</a></li>
+				<li><a href="index.html">爵士乐</a></li>
+     	 	 	<li><a href="index.html">乡村音乐</a></li>
+				</ul>
+				</li>
+     	 	 	<li><a href="http://image.baidu.com/>百度图片"></a></li>
+     	 	 	<li><a href="https://www.baidu.com/?tn=80035161_1_dg">百度知道</a></li>
+				<li><a href="http://wenku.baidu.com/">百度文库</a></li>
+     	 	 	<li><a href="http://top.baidu.com/">百度风云榜</a></li>
+				</ul>
+				<div class="main21">
+					<a href="http://www.baodu.com"><img src="images/5.png"width="70px" height="60px"><a/>
+				</div>
+				<div class="main22">
+					<a href="http://www.baodu.com"><img src="images/4.png"width="70px" height="60px"><a/>
+				</div>
+				<div class="main23">
+				<a href="http://www.baodu.com"><img src="images/3.png"width="70px" height="60px"><a/>
+
+				</div>
+				<div class="main24">
+				<a href="http://www.baodu.com"><img src="images/6.png"width="70px" height="60px"><a/>
+
+				</div>
+				<div class="main25">
+				<a href="http://www.baodu.com"><img src="images/1.png"width="70px" height="60px"><a/>
+
+				</div>
+				<div class="main26">
+				<p>“百度”二字,来自于八百年前南宋词人辛弃疾的一句词：<br/>
+				<span>众里寻他千百度。这句话描述了词人对理想的执着追求。</span></p>
+				</div>
+				
+			</div>
+	</div>
+</body>
+</html>

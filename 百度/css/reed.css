@@ -1,0 +1,97 @@
+.main{
+width:1500px;
+height:1000px;
+border:2px ;
+}
+.main1{
+width:381px;
+height:113px;
+margin-left:550px;
+background:url(../images/2.png);
+}
+.main2{
+width:600px;
+height:200px;
+border:2px ;
+margin-left:450px;
+}
+.main2 ul{
+list-style:none;
+}
+.main2 ul li{
+float:left;
+margin-left:20px;
+margin-right:20px;
+}
+.main2 a{
+text-decoration:none;
+color:black;
+}
+.main a:hover{
+color:orange;
+}
+
+.main21{
+width:70px;
+height:60px;
+margin-left:60px;
+float:left;
+}
+.main22{
+width:70px;
+height:60px;
+margin-left:30px;
+float:left;
+}
+.main23{
+width:70px;
+height:60px;
+margin-left:35px;
+float:left;
+}
+.main24{
+width:70px;
+height:60px;
+margin-left:35px;
+float:left;
+}
+.main25{
+width:70px;
+height:60px;
+margin-left:38px;
+float:left;
+}
+.main26{
+width:500px;
+height:50px;
+margin-left:60px;
+}
+.main26 span{
+color:red;
+}
+.main2 ul li ul li a {
+background:none;
+}
+
+.main2 ul li ul{
+margin:0;
+padding:0;
+list-style:none;
+}
+.main2 ul li ul li {
+display:none;
+float:none;
+background:white;
+}
+.main2 ul li ul li a :hover{
+color:white;
+}
+.main2 ul li:hover ul li {
+display:block;
+}
+.main2 ul li ul{
+position:absolute;
+}
+.main2 a:hover{
+color:orange;
+}

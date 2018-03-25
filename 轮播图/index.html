@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>北京大学</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<script type="text/javascript">
+			window.onload=function() {
+					var main=document.getElementById('main');
+				  var list=document.getElementById('list');
+					var button=document.getElementById('button').getElementsByTagName('span');
+					var prev=document.getElementById('prev');
+					var next=document.getElementById('next');
+					var index = 1;
+					var timer;
+					function showButton() {
+							for (var i = 0; i < button.length; i++) {
+								if (button[i].className == 'on') {
+									 button[i].className = '';
+									break;
+								}
+
+							}
+						button[index - 1].className ='on';
+						}
+
+					function animate(offset) {
+						var newLeft= parseInt(list.style.left) + offset;
+						var time=300;
+						var interval=10;
+						var speed=offset/(time/interval);
+
+						function  go() {
+							if ((speed < 0&& parseInt(list.style.left)>newLeft)||(speed > 0 &&parseInt(list.style.left)<newLeft)) {
+									list.style.left=parseInt(list.style.left)+ speed +'px';
+									setTimeout(go,interval);
+							}
+							else {
+								list.style.left = newLeft + 'px';
+								if (newLeft>-720) {
+										list.style.left=-2880 + 'px';
+								}
+								if (newLeft<-2880) {
+										list.style.left=-720 + 'px';
+								}
+							}
+
+						}
+							go();
+					}
+					function play() {
+						timer = setInterval(function () {
+							next.onclick();
+						},3000);
+					}
+					function stop() {
+						clearInterval(timer);
+
+					}
+					next.onclick = function () {
+						if (index ==5) {
+							index =1;
+						}
+						else {
+							index += 1;
+						}
+						showButton();
+						animate(-720);
+
+					}
+					prev.onclick = function () {
+						if (index ==1) {
+							index =5;
+
+						}
+						else {
+							index -= 1;
+						}
+						showButton();
+						animate(720);
+
+					}
+					for (var i = 0; i < button.length; i++) {
+						button[i].onclick= function () {
+							if (this.className =='on') {
+								return;
+							}
+							var myIndex =parseInt(this.getAttribute('index'));
+							var offset  = -720 * (myIndex - index);
+
+							animate(offset);
+							index = myIndex;
+							showButton();
+						}
+					}
+					main.onmouseover=stop;
+					main.onmouseout=play;
+			}
+		</script>
+	</head>
+	<body>
+		<div id="main">
+
+			<div id="list"style="left:-720px">
+					<img src="images/5.jpg">
+					<img src="images/1.jpg">
+					<img src="images/2.jpg" >
+					<img src="images/3.jpg" >
+					<img src="images/4.jpg" >
+					<img src="images/5.jpg" >
+					<img src="images/1.jpg" >
+			</div>
+			<div id="button">
+				<span index="1"></span>
+				<span index="2"></span>
+				<span index="3"></span>
+				<span index="4"></span>
+				<span index="5"></span>
+			</div>
+			<a href="javascript:;" id="prev" clas="arrow"><img class="main1" src="images/1.png"></a>
+			<a href="javascript:;" id="next" class="arrow"><img class="main2" src="images/1.png"></a>
+		</div>
+	</body>
+</html>

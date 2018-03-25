@@ -1,0 +1,183 @@
+.button.main33{
+ -webkit-animation-name: button ;
+ -webkit-animation-duration: 3.5s;
+ -webkit-animation-timing-fuction:easy;
+   animation-play-state:running;
+}
+.button.main44{
+-webkit-animation-name: button ;
+-webkit-animation-duration: 3.5s;
+-webkit-animation-timing-fuction:easy;
+}
+.button.wo{
+ -webkit-animation-name: button ;
+ -webkit-animation-duration: 3.5s;
+ -webkit-animation-timing-fuction:easy;
+   animation-play-state:running;
+}
+.button.jing{
+-webkit-animation-name: button ;
+-webkit-animation-duration: 3.5s;
+-webkit-animation-timing-fuction:easy;
+}
+.button.shu{
+-webkit-animation-name: button ;
+-webkit-animation-duration: 3.5s;
+-webkit-animation-timing-fuction:easy;
+}
+.mokey.aa{
+ -webkit-animation-name: mokey ;
+ -webkit-animation-duration: 3.5s;
+ -webkit-animation-timing-fuction:easy;
+}
+.buttons.tit{
+ -webkit-animation-name: buttons ;
+ -webkit-animation-duration: 3.5s;
+ -webkit-animation-timing-fuction:easy;
+}
+.buttons.text{
+ -webkit-animation-name: buttons ;
+ -webkit-animation-duration: 3.5s;
+ -webkit-animation-timing-fuction:easy;
+}
+.mokeys.ss1{
+ -webkit-animation-name: mokeys ;
+ -webkit-animation-duration: 3.5s;
+ -webkit-animation-timing-fuction:easy;
+}
+.hand.ss3{
+ -webkit-animation-name: hand ;
+ -webkit-animation-duration: 3.5s;
+ -webkit-animation-timing-fuction:easy;
+}
+.face.ss2{
+ -webkit-animation-name: face ;
+ -webkit-animation-duration: 3.5s;
+ -webkit-animation-timing-fuction:easy;
+}
+.faces.ss4{
+ -webkit-animation-name: faces ;
+ -webkit-animation-duration: 3.5s;
+ -webkit-animation-timing-fuction:easy;
+}
+.button.bo_b2 {
+ -webkit-animation-name: faces ;
+ -webkit-animation-duration: 3.5s;
+ -webkit-animation-timing-fuction:easy;
+}
+.button.bo_b3 {
+ -webkit-animation-name: hand ;
+ -webkit-animation-duration: 3.5s;
+ -webkit-animation-timing-fuction:easy;
+}
+.button.bo_b1 {
+ -webkit-animation-name: mokeys ;
+ -webkit-animation-duration: 3.5s;
+ -webkit-animation-timing-fuction:easy;
+}
+.button.dd2 {
+ -webkit-animation-name: face ;
+ -webkit-animation-duration: 3.5s;
+ -webkit-animation-timing-fuction:easy;
+}
+.button.dd3 {
+ -webkit-animation-name: hand ;
+ -webkit-animation-duration: 3.5s;
+ -webkit-animation-timing-fuction:easy;
+}
+.button.dd1 {
+ -webkit-animation-name: mokeys ;
+ -webkit-animation-duration: 3.5s;
+ -webkit-animation-timing-fuction:easy;
+}
+.button.dd4 {
+ -webkit-animation-name: faces ;
+ -webkit-animation-duration: 3.5s;
+ -webkit-animation-timing-fuction:easy;
+}
+.button.foot {
+ -webkit-animation-name: faces ;
+ -webkit-animation-duration: 3.5s;
+ -webkit-animation-timing-fuction:easy;
+}
+
+.button.ff {
+ -webkit-animation-name: faces ;
+ -webkit-animation-duration: 3.5s;
+ -webkit-animation-timing-fuction:easy;
+}
+.button.fo {
+ -webkit-animation-name: faces ;
+ -webkit-animation-duration: 3.5s;
+ -webkit-animation-timing-fuction:easy;
+}
+@keyframes button{
+ from{ opacity:0;
+    position: relative;
+    right:-200px;
+  }
+ to{ opacity:1;
+   position: relative;
+   right:0px;
+ }
+}
+@keyframes buttons{
+ from{ opacity:0;
+    position: relative;
+    left:800px
+  }
+ to{ opacity:1;
+   position: relative;
+   left:0px;
+ }
+}
+@keyframes mokey{
+ from{ opacity:0;
+    position: relative;
+    right:-150px;
+  }
+ to{ opacity:1;
+   position: relative;
+   right:0px;
+ }
+}
+@keyframes mokeys{
+ from{ opacity:0;
+    position: relative;
+    left:-550px;
+  }
+ to{ opacity:1;
+   position: relative;
+   left:0px;
+ }
+}
+@keyframes face{
+ from{ opacity:0;
+    position: relative;
+    top:-550px;
+  }
+ to{ opacity:1;
+   position: relative;
+   top:0px;
+ }
+}
+@keyframes faces{
+ from{ opacity:0;
+    position: relative;
+    bottom:-250px;
+  }
+ to{ opacity:1;
+   position: relative;
+   bottom:0px;
+ }
+}
+@keyframes hand{
+ from{ opacity:0;
+    position: relative;
+    right:-550px;
+  }
+ to{ opacity:1;
+   position: relative;
+   right:0px;
+ }
+}

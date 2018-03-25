@@ -1,0 +1,243 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+#main{
+  width:1520px;
+  height:1410px;
+  background:#F2F2F2;
+  margin: auto;
+}
+#main1{
+  width:1520px;
+  height:40px;
+  background:#444444;
+}
+#main2{
+  width:1520px;
+  height:550px;
+  background:black;
+}
+#main21{
+  width:1520px;
+  height:700px;
+
+}
+#main21 ul li{
+  float: left;
+  margin-left:85px;
+  font-weight: 200;
+  list-style: none;
+}
+#main21 ul{
+  float: left;
+  margin-left: 185px;
+  margin-top:10px;
+}
+#main21 a{
+  color: white;
+  text-decoration: none;
+  font-size:14px;
+
+}
+#main21 a:hover{
+  color:#444444;
+
+}
+#main21 ul li span{
+  width: 22px;
+  height: 22px;
+  float: left;
+  list-style:none;
+}
+#main211 span{
+  background: url(../images/8.png);
+  background-size:22px 22px;
+}
+#main212 span {
+  background: url(../images/10.png);
+  background-size:22px 22px;
+}
+#main213 span {
+  background: url(../images/12.png);
+  background-size:22px 22px;
+}
+#main211 :hover span{
+  background: url(../images/9.png);
+  background-size:22px 22px;
+}
+#main212 :hover span{
+  background: url(../images/11.png);
+  background-size:22px 22px;
+}
+#main213 :hover span{
+  background: url(../images/13.png);
+  background-size:22px 22px;
+}
+#main3{
+  width: 1520px;
+  height: 250px;
+  float: left;
+}
+#main4{
+  width: 1000px;
+  height: 40px;
+  float: left;
+  margin-left: 250px;
+  border-bottom: 2px solid #E3E3E3;
+  font-size: 12px;
+}
+#main4 p{
+  margin-top:10px;
+  float: left;
+  color: #9E9C99;
+}
+#main5{
+  width: 1000px;
+  height: 250px;
+  float: left;
+  margin-left: 250px;
+  font-size: 12px;
+
+}
+#main51{
+  list-style:none;
+  float:left;
+  width:100px;
+  margin-right: 100px;
+  margin-top:20px;
+
+}
+#main5 li{
+  list-style: none;
+  font-size: 12px;
+}
+#main5 a{
+  color: black;
+  text-decoration: none;
+}
+#main5 a:hover{
+  text-decoration: underline;
+}
+#main6{
+  width:1000px;
+  height:40px;
+  float:left;
+  margin-left:250px;
+  border-bottom:2px solid #E3E3E3;
+  font-size:12px;
+}
+#main6 p{
+  margin-top:10px;
+  float: left;
+  color: #9E9C99;
+}
+#main6 a{
+  text-decoration: none;
+  color:blue;
+}
+#main6 a:hover{
+  color: black;
+  text-decoration: underline;
+}
+#main7{
+  width:1000px;
+  height:60px;
+  float:left;
+  margin-left:250px;
+  font-size: 12px;
+}
+#main7 ul li {
+  float: left;
+   list-style: none;
+   margin-left:10px;
+}
+#main7 a {
+  color:#7A5757;
+  margin-left:10px;
+  text-decoration: none;
+}
+#main7 span{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+#main71{
+  margin-top: 10px;
+}
+#main7 p{
+  width: 300px;
+  color:#9E9C99;
+}
+#main7 ul {
+  margin-left:250px;
+  float:left;
+  margin-top:-15px;
+}
+#main72{
+  float: left;
+  margin-top: 10px;
+}
+#main7 a:hover{
+  text-decoration: underline;
+}
+#main73{
+  margin-left:900px;
+  margin-top:-50px;
+  color:#9E9C99
+}
+#first{
+overflow:hidden;
+width:1520px;
+height:700px;
+position:relative;
+float:left;
+}
+#list{
+  width:6080px;
+  height: 700px;
+  position: absolute;
+  z-index: 1;
+}
+#list img{
+ float: left;
+  width: 1520px;
+  height: 700px;
+}
+#button{
+  width:600px;
+  height: 30px;
+  position: absolute;
+  margin-left: 460px;
+  margin-top: 650px;
+  z-index: 2;
+}
+#button span{
+  width:200px;
+  height:4px;
+  border: 1px;
+  float:left;
+  margin-left:30px;
+  cursor: pointer;
+  background:#BFBFBF;
+}
+#button .on{
+  background:black;
+}
+.images1{
+  float: left;
+  margin-left:20px;
+  margin-top:300px;
+  z-index: 3;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+.images2{
+  margin-left:1390px;
+  margin-top:300px;
+  float: left;
+  z-index: 3;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}

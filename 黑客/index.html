@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>黑客6228</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script type="text/javascript">
+      window.onload=function() {
+          var first=document.getElementById('first');
+          var list=document.getElementById('list');
+          var button=document.getElementById('button').getElementsByTagName('span');
+          var prev=document.getElementById('prev');
+          var next=document.getElementById('next');
+          var index = 1;
+          var timer;
+          function showButton() {
+              for (var i = 0; i < button.length; i++) {
+                if (button[i].className == 'on') {
+                   button[i].className = '';
+                  break;
+                }
+
+              }
+            button[index - 1].className ='on';
+            }
+
+          function animate(offset) {
+            var newLeft= parseInt(list.style.left) + offset;
+            var time=300;
+            var interval=10;
+            var speed=offset/(time/interval);
+
+            function  go() {
+              if ((speed < 0&& parseInt(list.style.left)>newLeft)||(speed > 0 &&parseInt(list.style.left)<newLeft)) {
+                  list.style.left=parseInt(list.style.left)+ speed +'px';
+                  setTimeout(go,interval);
+              }
+              else {
+                list.style.left = newLeft + 'px';
+                if (newLeft>-1520) {
+                    list.style.left=-6080 + 'px';
+                }
+                if (newLeft<-6080) {
+                    list.style.left=-1520 + 'px';
+                }
+              }
+
+            }
+              go();
+          }
+          function play() {
+            timer = setInterval(function () {
+              next.onclick();
+            },3000);
+          }
+          function stop() {
+            clearInterval(timer);
+
+          }
+          next.onclick = function () {
+            if (index ==4) {
+              index =1;
+            }
+            else {
+              index += 1;
+            }
+            showButton();
+            animate(-1520);
+
+          }
+          prev.onclick = function () {
+            if (index ==1) {
+              index =4;
+
+            }
+            else {
+              index -= 1;
+            }
+            showButton();
+            animate(1520);
+
+          }
+          for (var i = 0; i < button.length; i++) {
+            button[i].onclick= function () {
+              if (this.className =='on') {
+                return;
+              }
+              var myIndex =parseInt(this.getAttribute('index'));
+              var offset  = -1520 * (myIndex - index);
+
+              animate(offset);
+              index = myIndex;
+              showButton();
+            }
+          }
+          first.onmouseover=stop;
+          first.onmouseout=play;
+      }
+    </script>
+  </head>
+  <body>
+<div class="main">
+  <div class="main1">
+    <img  class="main11"src="images/0.jpg"width="180px"height="120px">
+    <ul>
+      <li><a href"#">组织简介</a></li>
+      <li><a href"#">主要成员</a></li>
+      <li><a href"#">组织属性</a></li>
+      <li><a href"#">组织动态</a></li>
+      <li><a href"#">more<</a></li>
+    </ul>
+  </div>
+  <div class="main2">
+    <div id="first">
+
+      <div id="list"style="left:-1520px">
+          <img src="images/4.jpg">
+          <img src="images/1.jpg">
+          <img src="images/2.jpg" >
+          <img src="images/3.jpg" >
+          <img src="images/4.jpg" >
+          <img src="images/1.jpg" >
+      </div>
+      <div id="button">
+        <span index="1"></span>
+        <span index="2"></span>
+        <span index="3"></span>
+        <span index="4"></span>
+      </div>
+      <a href="javascript:;" id="prev" clas="arrow"><img class="images1" src="images/99.png"></a>
+      <a href="javascript:;" id="next" class="arrow"><img class="images2" src="images/66.png"></a>
+    </div>
+  </div>
+  <div class="main3">
+      <img  class="main31"src="images/7.png"width="280px"height="200px">
+      <img  class="main32"src="images/6.jpg"width="90px"height="90px">
+      <img  class="main33"src="images/8.jpg"width="90px"height="90px">
+      <img  class="main34"src="images/9.jpg"width="90px"height="90px">
+      <img  class="main35"src="images/10.jpg"width="90px"height="90px">
+      <img  class="main36"src="images/11.jpg"width="90px"height="90px">
+      <p>伟大黑客们不仅会工作，还会把工作变成一种艺术。
+        他们的工作不只是一个人默默的摸索，而且与他人的协作交流更是他们工作的重点
+        。<br/>梦想成为黑客的朋友们，当我们在成为黑客的路途中默默前进时，
+        理解这些会有助于我们更好地越过这条艰辛之路上的荆棘。
+         <br/>
+      　——著名的黑客埃里克·雷蒙德（Eric Raymond）</p>
+  </div>
+  <div class="main4">
+    <span><b>程序语言</b></span>
+    <p>programming language;</p>
+    <img  class="main41"src="images/22.png"width="50px"height="50px">
+
+    <div class="main42">
+        <img  class="main421"src="images/15.jpg"width="320px"height="320px">
+    </div>
+    <div class="main43">
+      <b>C语言</b>
+    </div>
+    <div class="main44">
+        <img  class="main441"src="images/23.jpg"width="450px"height="74px">
+    </div>
+    <div class="main45">
+      <b>C++</b>
+    </div>
+    <div class="main46">
+      <img  class="main461"src="images/17.png"width="200px"height="200px">
+    </div>
+    <div class="main47">
+      <img  class="main471"src="images/21.jpg"width="185px"height="365px">
+    </div>
+    <div class="main48">
+        <b>Java</b>
+    </div>
+    <div class="main49">
+      <img  class="main491"src="images/24.jpg"width="300px"height="315px">
+    </div>
+  </div>
+  <div class="main5">
+    <div class="main51">
+      <div class="main511">
+          <img  class="main5111"src="images/26.png"width="90px"height="90px">
+      </div>
+      <span><a href"#">键盘</a></span>
+      <b>KEYBOARD</b>
+      <p>键盘是用于操作设备运行的一种指令和数据输入装置，
+        也指经过系统安排操作一台机器或设备的一组功能键（如打字机、电脑键盘）。
+
+      </p>
+    </div>
+    <div class="main52">
+      <div class="main511">
+          <img  class="main5111"src="images/25.png"width="90px"height="90px">
+      </div>
+      <span><a href"#">黑客</a></span>
+      <b>HACKER</b>
+      <p>最初曾指热心于计算机技术、水平高超的电脑专家，
+        尤其是程序设计人员，逐渐区分为白帽、灰帽、黑帽等，
+        其中黑帽（black hat）实际就是cracker。
+
+      </p>
+    </div>
+    <div class="main53">
+      <div class="main511">
+          <img  class="main5111"src="images/27.png"width="90px"height="90px">
+      </div>
+      <span><a href"#">鼠标</a></span>
+      <b>MOUSE</b>
+      <p>鼠标是计算机的一种输入设备，
+        也是计算机显示系统纵横坐标定位的指示器，
+        因形似老鼠而得名“鼠标”（港台作滑鼠）。
+
+      </p>
+    </div>
+  </div>
+  <div class="main6">
+    <div class="main61">
+      <img  class="main611"src="images/19.jpg"width="640px"height="430px">
+      <span>匿名者</span>
+      <b>	ANONYM</b>
+      <p>  匿名者黑客组织是全球最大的黑客组织，也是全球最大的政治性黑客组织。其主要分布于美国，其次为欧洲各国，非洲、南美、亚洲等地都有其分部。
+“匿名者”组织起源于国外，这里聚集喜欢恶作剧的黑客和游戏玩家。他们支持网络透明，但常有人冒充他们的身份来发表一些虚假视频。“匿名者”是一个体系松散但规模庞大的国际黑客组织，黑客们大多出于对计算机的热爱加入其中。
+2015年11月，针对于2015年11·13巴黎恐怖袭击事件，国际黑客组织“匿名者”在视频网站youtube上传视频，向IS宣战。</p>
+    </div>
+  </div>
+  <div class="main7">
+    <img  class="main7111"src="images/33.png"width="200px"height="200px">
+    <ul>
+      <li><a href="#">组织简介</a></li>
+      <li><a href="#">主要成员</a></li>
+      <li><a href="#">组织属性</a></li>
+      <li><a href="#">组织动态</a></li>
+      <li><a href="#">more<</a></li>
+    </ul>
+
+    <p>账号: <input class="main77" type="text" name="账号" /><br/>
+      密码: <input class="main77"type="text" name="密码" /></br>
+      <button  class="main79"type="button">登录</button>
+      <button class="main710" type="button">注册</button>
+    </p>
+
+
+    <span>  其他方式登录</span>
+    <div class="main8">
+    <a href="#"><img  class="main711"src="images/28.png"width="30px"height="30px"></a>
+    <a href="#"><img  class="main711"src="images/29.png"width="30px"height="30px"></a>
+    <a href="#"><img  class="main711"src="images/30.png"width="30px"height="30px"></a>
+    <a href="#"><img  class="main711"src="images/31.png"width="30px"height="30px"></a>
+    <a href="#"><img  class="main711"src="images/32.png"width="30px"height="30px"></a>
+  </div>
+  </div>
+</div>
+
+  </body>
+</html>

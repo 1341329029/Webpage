@@ -1,0 +1,81 @@
+.main{
+  width: 1200px;
+  height: 800px;
+   background: url(../images/1.jpg);
+   background-size:1200px 800px;
+   margin: auto;
+}
+.main1{
+  width: 1180px;
+  height:780px;
+  background: rgba(0, 0, 0, 0.6);
+  margin: auto;
+  float: left;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.main11{
+  float: left;
+  width: 1150px;
+  height: 150px;
+}
+.main11 ul{
+margin-left: 150px;
+margin-top: 50px;
+}
+.main11 li{
+  list-style: none;
+  float: left;
+margin-left: 40px;
+}
+.main11 a{
+  color: white;
+  text-decoration: none;
+}
+.i1{
+  float: left;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.main11 a:hover{
+  color: yellow;
+}
+.main12{
+  width: 950px;
+  height: 550px;
+    background: rgba(0, 0, 0, 0.5);
+    margin: auto;
+    float: left;
+    margin-left: 100px;
+    margin-top: 5px;
+}
+.main121 li{
+  list-style: none;
+  color:white;
+  margin-top: 20PX;
+}
+.main121 a{
+  text-decoration: none;
+  color: white;
+}
+.main121 ul{
+  width: 200px;
+  height: 400px;
+  float: left;
+  margin-top: 150px;
+  margin-left: -140px;
+}
+.main121 ul li span{
+
+  margin-left: 15px;
+  color:gray;
+}
+.main122{
+  float: left;
+  width: 300px;
+  height: 300px;
+  margin-left: 220px;
+  margin-top: 90px;
+  background: url(../images/1.jpg);
+  background-size:300px 400px;
+}

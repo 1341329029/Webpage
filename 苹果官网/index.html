@@ -1,0 +1,228 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Apple（中国）-官方网站</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<script type="text/javascript">
+		window.onload=function() {
+				var first=document.getElementById('first');
+				var list=document.getElementById('list');
+				var button=document.getElementById('button').getElementsByTagName('span');
+				var prev=document.getElementById('prev');
+				var next=document.getElementById('next');
+				var index = 1;
+				var timer;
+				function showButton() {
+						for (var i = 0; i < button.length; i++) {
+							if (button[i].className == 'on') {
+								 button[i].className = '';
+								break;
+							}
+
+						}
+					button[index - 1].className ='on';
+					}
+
+				function animate(offset) {
+					var newLeft= parseInt(list.style.left) + offset;
+					var time=300;
+					var interval=10;
+					var speed=offset/(time/interval);
+
+					function  go() {
+						if ((speed < 0&& parseInt(list.style.left)>newLeft)||(speed > 0 &&parseInt(list.style.left)<newLeft)) {
+								list.style.left=parseInt(list.style.left)+ speed +'px';
+								setTimeout(go,interval);
+						}
+						else {
+							list.style.left = newLeft + 'px';
+							if (newLeft>-1520) {
+									list.style.left=-3040+ 'px';
+							}
+							if (newLeft<-3040) {
+									list.style.left=-1520 + 'px';
+							}
+						}
+
+					}
+						go();
+				}
+				function play() {
+					timer = setInterval(function () {
+						next.onclick();
+					},3000);
+				}
+				function stop() {
+					clearInterval(timer);
+
+				}
+				next.onclick = function () {
+					if (index ==2) {
+						index =1;
+					}
+					else {
+						index += 1;
+					}
+					showButton();
+					animate(-1520);
+
+				}
+				prev.onclick = function () {
+					if (index ==1) {
+						index =2;
+
+					}
+					else {
+						index -= 1;
+					}
+					showButton();
+					animate(1520);
+
+				}
+				for (var i = 0; i < button.length; i++) {
+					button[i].onclick= function () {
+						if (this.className =='on') {
+							return;
+						}
+						var myIndex =parseInt(this.getAttribute('index'));
+						var offset  = -1520 * (myIndex - index);
+
+						animate(offset);
+						index = myIndex;
+						showButton();
+					}
+				}
+				main.onmouseover=stop;
+				main.onmouseout=play;
+		}
+		</script>
+	</head>
+	<body>
+		<div id="main">
+			<div id="main1">
+
+			</div>
+			<div id="main2">
+				<div id="main21">
+					<ul>
+						<li id="main211"><a href="index.html"><span ></span></a></li>
+						<li><a href="index.html">Mac</a></li>
+					  <li><a href="index.html">iPad</a></li>
+						<li><a href="index.html">iPhone</a></li>
+						<li><a href="index.html">Watch</a></li>
+						<li><a href="index.html">Music</a></li>
+						<li><a href="index.html">	技术支持</a></li>
+						<li id="main212"><a href="index.html"><span ></span></a></li>
+						<li id="main213"><a href="index.html"><span></span></a></li>
+					</ul>
+
+					<div id="first">
+						<div id="list"style="left:-1520px">
+							  <img src="images/2.png">
+								<img src="images/4.png">
+								<img src="images/2.png">
+								<img src="images/4.png">
+						</div>
+						<div id="button">
+							<span index="1"></span>
+							<span index="2"></span>
+
+						</div>
+						<a href="javascript:;" id="prev" clas="arrow"><img class="images1" src="images/99.png"></a>
+						<a href="javascript:;" id="next" class="arrow"><img class="images2" src="images/66.png"></a>
+				</div>
+			</div>
+		</div>
+			<div id="main3">
+					<img src="images/53.png"width="1520px"height="250px">
+			</div>
+			<div id="main4">
+				<p>	双镜头摄像头仅于 iPhone 7 Plus 提供。亮黑色外观仅于 128GB 及以上存储容量的机型提供。</p>
+			</div>
+			<div id="main5">
+				<ul>
+					<li id="main51"><b>选购及了解</b>
+							<ul>
+								<li><a href="index.html">Mac</a></li>
+								<li><a href="index.html">iPad</a></li>
+								<li><a href="index.html">iPhone</a></li>
+								<li><a href="index.html">Watch</a></li>
+								<li><a href="index.html">Music</a></li>
+								<li><a href="index.html">iTunes</a></li>
+								<li><a href="index.html">iPod</a></li>
+								<li><a href="index.html">配件</a></li>
+							</ul>
+					</li>
+					<li id="main51"><b>Apple Store 商店</b>
+						<ul>
+							<li><a href="index.html">查找零售店</a></li>
+							<li><a href="index.html">Genius Bar 天才吧</a></li>
+							<li><a href="index.html">讲座和学习青少年活动</a></li>
+							<li><a href="index.html">Apple Store App</a></li>
+							<li><a href="index.html">翻新和优惠</a></li>
+							<li><a href="index.html">分期付款</a></li>
+							<li><a href="index.html">重复使用和循环利用</a></li>
+							<li><a href="index.html">订单状态</a></li>
+							<li><a href="index.html">选购帮助</a></li>
+						</ul>
+					</li>
+					<li id="main51"><b>教育应用</b>
+						<ul>
+							<li><a href="index.html">公务员</a></li>
+							<li><a href="index.html">高校师生选购</a></li>
+						</ul>
+					</li>
+					<li id="main51"><b>帐户</b>
+						<ul>
+							<li><a href="index.html">管理你的 Apple ID</a></li>
+							<li><a href="index.html">Apple Store 帐户</a></li>
+							<li><a href="index.html">iCloud.com</a></li>
+						</ul>
+					</li>
+					<li id="main51"><b>关于 Apple</b>
+						<ul>
+							<li><a href="index.html">Apple 资讯</a></li>
+							<li><a href="index.html">工作机会</a></li>
+							<li><a href="index.html">媒体资讯</a></li>
+							<li><a href="index.html">活动</a></li>
+							<li><a href="index.html">联系 Apple</a></li>
+						</ul>
+					</li>
+					<li id="main51"><b>商务应用</b>
+						<ul>
+							<li><a href="index.html">Apple 与商务</a></li>
+							<li><a href="index.html">商务选购</a></li>
+						</ul>
+					</li>
+					<li id="main51"><b>Apple 价值观</b>
+						<ul>
+							<li><a href="index.html">辅助功能</a></li>
+							<li><a href="index.html">环境责任</a></li>
+							<li><a href="index.html">隐私</a></li>
+							<li><a href="index.html">供应商责任</a></li>
+						</ul>
+					</li>
+
+				</ul>
+			</div>
+			<div id="main6">
+				<p>更多选购方式：前往 <a href="index.html">Apple Store 零售店</a>，致电 400-666-8800 或查找在你附近的<a href="index.html">授权经销商</a>。<p>
+			</div>
+			<div id="main7">
+				<p id="main71">Copyright © 2016 Apple Inc. 保留所有权利。</p>
+				<ul>
+					<li><a href="index.html">隐私政策<span>|</span></a></li>
+					<li><a href="index.html"> 使用条款<span>|</span></a></li>
+					<li><a href="index.html">销售政策<span>|</span></a></li>
+					<li><a href="index.html">法律信息<span>|</span></a></li>
+					<li><a href="index.html">网站地图</a></li>
+				</ul>
+					<p id="main71">京公安网安备 11010502008968 京ICP备10214630</p>
+					<div id="main73"><img src="images/55.png"width="20px"height="20px"><a href="index.html">中国</a>
+					</div>
+			</div>
+		</div>
+
+	</body>
+</html>

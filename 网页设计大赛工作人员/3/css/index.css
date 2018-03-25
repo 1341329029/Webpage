@@ -1,0 +1,271 @@
+*{
+	margin:0;
+	padding:0;
+}
+.page{
+	width: 1340px;
+	height: 2630px;
+	margin: auto;
+}
+.header{
+	height: 100px;
+	width: 1340px;
+	margin-top: 30px;
+}
+.logo{
+	width: 250px;
+	margin-left: 90px;
+	float: left;
+}
+.sou{
+	width: 40px;
+	height: 32px;
+	background-color: #a9c9eb;
+	float: left ;
+	margin-top: 20px;
+	margin-left: 25px;
+	border:1px solid #6bcde6;
+	box-shadow:0 2px 5px #b0b0b0;
+}
+.sou:hover{background-color:#6bcde6;color: white; }
+.header .lie{
+	list-style: none;
+	margin-left: 159px;
+	font-size: 12px;
+    margin-top: 7px;
+    float: left;
+}
+.header .lie li{
+	float: left;
+	margin-left: 10px;
+	color:#666;
+}
+.Con{
+	width: 1340px;
+	height: 40px;
+	background-color:#3c3c3c;
+}
+.Con ul{
+	list-style: none;
+	margin-left: 150px;
+}
+.Con ul li{
+	float: left;
+	width: 120px;
+	height: 30px;
+	text-align: center;
+	color: #fafafa;
+	padding-top: 10px;
+	margin-left: 10px;
+}
+.Con ul li:hover{
+	background-color: #a9c9eb;
+}
+.main{
+	width: 1340px;
+	height: 500px;
+}
+.tu{
+	width: 1340px;
+	height: 380px;
+}
+.tu ul{
+	list-style: none;
+	margin-top: 15px;
+	margin-left: 70px;
+}
+.tu ul li{
+	width: 282px;
+	height: 362px;
+	margin-left: 15px;
+	float: left;
+	z-index: 1;
+	border:1px solid white;
+}
+.tu ul li:hover{
+	box-shadow:0 2px 15px #b0b0b0;
+}
+.he{
+	width: 210px;
+	height:120px;
+	border:7px solid rgba(255,255,255,0.9);
+	float: left;
+	margin-left: 32px;
+	margin-top: -165px;
+	z-index: 3;
+	position: relative;
+}
+.bai{
+	width: 190px;
+	height: 100px;
+	background-color: rgba(255,255,255,0.9);
+	float: left;
+	z-index: 4;
+	position: relative;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.text1{
+	width: 170px;
+	height: 42px;
+	border-bottom:1px solid #999;
+	margin-left: 9px;
+	float: left;
+	z-index: 5;
+	position: relative;
+	margin-top: 10px;
+	font-size: 21px;
+	text-align: center;
+}
+.feng{
+	width: 1340px;
+	height: 340px;
+	margin-top: 20px;
+}
+.h{
+	color: #a9c9eb;
+	width: 1180px;
+	height: 45px;
+	margin-left: 70px;
+    padding-top: 10px;
+}
+.feng ul{
+	list-style: none;
+	margin-left: 55px;
+	margin-top: 10px;
+}
+.feng li{
+	width: 355px;
+	height: 280px;
+	margin-left: 40px;
+	float: left;
+}
+.feng ul li:hover{
+	box-shadow:0 2px 15px #b0b0b0;
+}
+ .place{
+	width: 355px;
+	height: 70px;
+}
+ .place .text{
+	width: 355px;
+	height: 50px;
+	font-size: 14px;
+	color: #666;
+}
+ .place .sec{
+	width: 355px;
+	height: 20px;
+	color: #6689e1;
+	float: left;
+	margin-top: 10px;
+	font-size: 18px;
+}
+.place .sec:hover{
+	color: #a9c9eb;
+	text-decoration: underline;
+}
+.jing{
+	width: 1340px;
+	height: 360px;
+	margin-top: 35px;
+}
+.jing ul{
+	list-style: none;
+	margin-left: 70px;
+	margin-top: 7px;
+}
+.jing li{
+	width: 285px;
+	height: 300px;
+	margin-left: 10px;
+	float: left;
+}
+.lv{
+	width: 1180px;
+	height: 600px;
+	margin-top: 20px;
+	margin-left: 70px;
+}
+.hh{
+	width: 1180px;
+	height: 50px;
+	border-bottom:1px solid #666;
+}
+.lv .hh span{
+	width: 90px;
+	height: 40px;
+	color:#a9c9eb;
+	font-size: 21px;
+	float: left;
+	padding-top: 10px;
+	border-bottom: 2px solid #6689e1;
+}
+.tou{
+	width: 480px;
+	height: 35px;
+	background-color: rgba(128,128,134,0.7);
+	margin-left: 40px;
+	margin-top: -40px;
+	color:#6689e1;
+	text-align: center;
+	z-index: 2;
+	position: relative;
+}
+.lv ul{
+	list-style: none;
+	float: right;
+	margin-right: 70px;
+	margin-top: -420px;
+}
+.lv li{
+	width: 500px;
+	height: 70px;
+	margin-top: 80px;
+	border-top:1px solid blue;
+	font-size: 14px;
+	color: #666;
+	border-top-style: dashed;
+}
+.footer{
+	width:1340px;
+	height: 220px;
+	background-color:#333;
+	border-top: 2px solid #6689e1;
+}
+.footer span{
+	color: #999;
+	font-size: 13px;
+	float: left;
+	margin-left: 140px;
+	margin-top: 120px;
+}
+.footer ul{
+	list-style: none;
+	float: right;
+	margin-right: 380px;
+	margin-top: 60px;
+}
+.footer li{
+	float: left;
+	margin-left: 20px;
+	font-size: 14px;
+	color: #dbdbdb;
+}
+.footer li:hover{
+	color: #a9c9eb;
+}
+.footer a{
+	font-size: 14px;
+	color: #808080;
+	float: right;
+	margin-top: -10px;
+	margin-right: 666px;
+}
+.footer p{
+	font-size: 14px;
+	color: #808080;
+	float: right;
+	margin-top: 32px;
+	margin-right: 583px;
+}

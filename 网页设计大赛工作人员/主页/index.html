@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+  <script type="text/javascript" src="js/jquery-1.12.1.min.js"></script>
+	<link rel="stylesheet" href="css/mplayer.css">
+	<script src="js/jquery-1.12.1.min.js"></script>
+	<title>主网页</title>
+	<style type="text/css">
+		.info {
+			font-family: "Microsoft Yahei";
+			text-align: center;
+		}
+		.info h1 {
+			font-weight: 400;
+		}
+		html,body,div{
+			margin: 0;
+			padding: 0;
+		}
+
+		.slider-outer{
+			width: 550px;
+			height: 400px;
+			margin: 150px auto;
+			background-color: #fafafa;
+			position: relative;
+			top: -105px;
+			left:-400px
+		}
+		.img-item{
+			position: absolute;
+			width: 450px;
+			height: 100%;
+			background-color: #FB565C;
+			transition: all 1.5s;
+			/*设置子元素在3D空间中呈现*/
+			transform-style: preserve-3d;
+		}
+		/*让图片可以构成一个有四个面的长方体 start*/
+		.img{
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			background-size: cover;
+		}
+		.img:nth-child(1){
+			background: url(images/1.jpg) no-repeat;
+			transform: rotateX(0deg) translateZ(150px);
+		}
+		.img:nth-child(2){
+			background: url(images/2.jpg) no-repeat;
+			transform: rotateX(-90deg) translateZ(150px);
+		}
+		.img:nth-child(3){
+			background: url(images/3.jpg) no-repeat;
+			transform: rotateX(-180deg) translateZ(150px);
+		}
+		.img:nth-child(4){
+			background: url(images/4.jpg) no-repeat;
+			transform: rotateX(-270deg) translateZ(150px);
+		}
+		/*让图片可以构成一个有四个面的长方体 end*/
+		.btns{
+			position: absolute;
+			top: 50%;
+			width: 100%;
+			height: 70px;
+			margin-top: -35px;
+		}
+		.prev,
+		.next{
+			width: 70px;
+			height: 70px;
+			line-height: 70px;
+			text-align: center;
+			background-color: rgba(0,0,0,.3);
+			color: #fff;
+			font-size: 30px;
+			cursor: pointer;
+			position: absolute;
+		}
+		.prev{
+			left:50px;
+		}
+		.next{
+			right:-750px;
+		}
+    </style>
+</head>
+<body>
+<script src="js/jquery-1.js"></script>
+<script src="js/jquery.js"></script>
+	<script type="text/javascript">
+		$(function (){
+			var num = 0;
+			$("#j_silder_outer .img-item").each(function(index, el) {
+				$(this).css({
+					"left":$(this).width() * index + "px",
+					/*让每个img-item延时一定时间执行动画*/
+					"transitionDelay": index * 0.3 + "s"
+				});
+				$(this).find(".img").css({
+					"backgroundPosition": -$(this).width() * index + "px"
+				});;
+			});
+
+			$(".prev").on("click",function (){
+				$("#j_silder_outer .img-item").css("transform", "rotateX(" + (++num * 90) + "deg)");
+			});
+
+			$(".next").on("click",function (){
+				$("#j_silder_outer .img-item").css("transform", "rotateX(" + (--num * 90) + "deg)");
+			});
+
+			var timejg=4000;//轮播间隔时间
+			var time = setInterval(move,timejg);
+			function move(){
+				$("#j_silder_outer .img-item").css("transform", "rotateX(" + (--num * 90) + "deg)");
+			}
+			$('.slider-outer').hover(function(){
+				clearInterval(time);
+			},function(){
+				time = setInterval(move,timejg);
+			});
+       })
+
+		</script>
+		<script src="/demos/googlegg.js"></script>
+	<div class="page fadeInUp">
+		<div class="header">
+			<p class="second">Beautiful <span class="third">JiLin</span></p>
+			<ul>
+				<li class="first"><a href="#">首页</a></li>
+				<li><a href="../1/1.html">经济走势</a></li>
+				<li><a href="../2/2.html">山珍海味</a></li>
+				<li><a href="../3/3.html">良辰美景</a></li>
+				<li><a href="../4/4.html">古朴大学</a></li>
+				<li><a href="../5/5.html">名人明星</a></li>
+				<li><a href="../6/6.html">民风民俗</a></li>
+				<li><a href="../7/7.html">悠久历史</a></li>
+
+			</ul>
+		</div>
+		<div class="Con fadeInUp">
+			<div class="slider-outer" id="j_silder_outer">
+		    	<div class="img-item" style="left: 0px; transition-delay: 0s; transform: rotateX(-270deg);">
+					<div class="img" style="background-position: 0px center;"></div>
+					<div class="img" style="background-position: 0px center;"></div>
+					<div class="img" style="background-position: 0px center;"></div>
+					<div class="img" style="background-position: 0px center;"></div>
+				</div>
+				<div class="img-item" style="left: 112px; transition-delay: 0.3s; transform: rotateX(-270deg);">
+					<div class="img" style="background-position: -112px center;"></div>
+					<div class="img" style="background-position: -112px center;"></div>
+					<div class="img" style="background-position: -112px center;"></div>
+					<div class="img" style="background-position: -112px center;"></div>
+				</div>
+				<div class="img-item" style="left: 224px; transition-delay: 0.3s; transform: rotateX(-270deg);">
+					<div class="img" style="background-position: -224px center;"></div>
+					<div class="img" style="background-position: -224px center;"></div>
+					<div class="img" style="background-position: -224px center;"></div>
+					<div class="img" style="background-position: -224px center;"></div>
+				</div>
+
+				<div class="btns" data-num="0">
+					<div class="prev">&lt;</div>
+					<div class="next">&gt;</div>
+				</div>
+			</div>
+		</div>
+		<div class="ta"></div>
+		<div class="por1 move">
+			<span class="tit move">
+				山珍海味&nbsp;&nbsp;&nbsp;
+				<a>——</a>
+			</span>
+			<span class="text move">
+				雾 锁 寒 江 松 笑 雪，凇 凝 曲 岸 柳 推 春
+			</span>
+		</div>
+		<div class="page">
+			<div class="cir">
+					<div class="he">
+						<img  class="ss1 move" src="images/0.jpg">
+						<span class="ss1 move">
+							酸菜炖粉条
+						</span>
+						<a class="ss1 move">
+							酸菜炖粉条是东北的一道传统菜，口味酸爽美味，主要原料有酸菜、五花肉和粉条。
+						</a>
+					</div>
+					<div class="he">
+						<img class="ss2 move "src="images/31.jpg">
+						<span class="ss2 move">
+							烤冷面
+						</span>
+						<a class="ss2 move">
+							松软可口酱香扑鼻，吃起来很劲道，非常受大众喜爱，
+							是东北十分火热的街头小吃。
+						</a>
+					</div>
+					<div class="he">
+						<img  class="ss3 move"src="images/21.jpg">
+						<span class="ss3 move">
+							人参鸡汤
+						</span>
+						<a class="ss3 move">
+							人参鸡汤是一道美味的菜肴，肉类食品和滋补类食品的完美组合，最具代表性的传统料理之一
+						</a>
+					</div>
+					<div class="he">
+					<img  class="ss1 move"src="images/92.jpg">
+						<span class="ss1 move">
+							朝鲜冷面
+						</span>
+						<a class="ss1 move">
+							其面条细质韧，汤汁凉爽，酸辣适口
+						</a>
+					</div>
+					<div class="he">
+							<img class="ss4 move"src="images/20.jpg">
+						<span class="ss4 move">
+							雪衣豆沙
+						</span>
+						<a class="ss4 move">
+							喧软涨满，形圆色白似朵朵棉桃。在炸制中因其底部受热膨胀，雪白的豆沙球在油中自动翻转不停，极富情趣。
+						</a>
+					</div>
+					<div class="he">
+							<img  class="ss3 move"src="images/mg.jpg">
+						<span class="ss3 move">
+							东北一锅出
+						</span>
+						<a class="ss3 move">
+							东北一锅出是一道东北特色菜，是炖菜和玉米贴饼的完美结合。一锅就将菜和主食全部搞定，而且鲜香美味。
+						</a>
+					</div>
+			</div>
+		</div>
+		<div class="box move">
+			<div class="tou">
+				<div class="box_a">
+					<span  class="main33 move"style="float: left;font-size: 40px;font-family: '微软雅黑';">北方江城-雾凇之都<br></span>
+					<span class="main44 move" style="float: left;margin-top: 20px;">
+					吉林是一个北方城市，坐落于美丽的松花江畔，松花江S形的穿过吉林造就了这个松花沿江最美	丽的城市。夏天江边郁郁葱葱，凉爽宜人；冬天更有中国四大自然奇观中最奇特的雾凇，可谓美不胜收！
+					</span>
+					<a href="#" class="aa move">了解详情</a>
+				</div>
+			</div>
+		</div>
+		<div class="por move">
+		 <div class="por1 ">
+			 <span class="tit move">
+				 历史名人&nbsp;&nbsp;&nbsp;
+				 <a>——</a>
+			 </span>
+			 <span class="text move">
+				 给你不一样的体验，不一样的感受！
+			 </span>
+		 </div>
+	</div>
+		<div class="bo move">
+			<div class="bo_b ">
+				<div class="bo_b1 move">
+					<p><img src="images/g.jpg" style="z-index: 1;"></p>
+					<span style="position: relative;top: -47px;"><img src="images/c.gif" style="z-index: 2;"></span>
+					<p style="margin-top: -30px;">徐鼐霖(1865-1940)</p>
+					<p>民国八年（1919年）任吉林省长，“吉林三杰”</p>
+					<p>他精诗文、善书法，文化艺术成就很高</p>
+					<p style="margin-top: 20px;"><img src="images/a.png"></p>
+					<p><img src="images/e.png"></p>
+				</div>
+				<div class="bo_b2 move">
+					<p><img src="images/h.jpg" style="z-index: 1;"></p>
+					<span style="position: relative;top: -47px;"><img src="images/d.gif" style="z-index: 2;"></span>
+					<p style="margin-top: -30px;">宋小濂(1860-1926)</p>
+					<p>黑龙江都督兼民政长，诗人，杰出爱国者，“吉林三杰”</p>
+					<p>在抗击沙俄外敌方面做出了杰出贡献 </p>
+					<p style="margin-top: 20px;"><img src="images/a.png"></p>
+					<p><img src="images/e.png"></p>
+				</div>
+				<div class="bo_b3 move">
+					<p><img src="images/i.jpg" style="z-index: 1;"></p>
+					<span style="position: relative;top: -47px;"><img src="images/f.gif" style="z-index: 2;"></span>
+					<p style="margin-top: -30px;">成多禄(1864-1928)</p>
+					<p>字竹山号澹堪,著名书法家,“清廉太守”,“吉林三杰”</p>
+					<p>被列为吉林市34位历史文化名人之首</p>
+					<p style="margin-top: 20px;"><img src="images/a.png"></p>
+					<p><img src="images/e.png"></p>
+				</div>
+			</div>
+	</div>
+	<div class="jingji move">
+		<div class="wo move">
+			我们的经济 / OUR ECONOMIC
+		</div>
+		<ul class="jing move">
+			<li>吉林市哈达湾老工业区搬迁改造有序推进</li>
+			<li>老工业城市换发新青春——吉林市全力打造现代服务业</li>
+			<li>吉林市崛起南部新城</li>
+			<li>吉林经济开发区 </li>
+		</ul>
+		<div class="shu move">
+			<ul style="margin-left:-150px;">
+				<li>2014年第一产业增加值</li>
+				<li>第二产业增加值</li>
+				<li>第三产业增加值</li>
+			</ul>
+			<span>258.6<a>+</a>1306.4<a>+</a>1165.2</span>
+		</div>
+	</div>
+		<div class="por move">
+			<div class="por1 ">
+				<span class="tit move">
+					吉林风光&nbsp;&nbsp;&nbsp;
+					<a>——</a>
+				</span>
+				<span class="text move">
+					雾 锁 寒 江 松 笑 雪，凇 凝 曲 岸 柳 推 春
+				</span>
+			</div>
+		</div>
+		<div class="imgg move">
+			<ul>
+				<li class="dd1 move">
+					<span>民国建筑-西关宾馆</span>
+					<img src="images/a6.jpg" style="position:absolute;">
+				</li>
+				<li class="dd1 move">
+					<span>风帆广场</span>
+					<img src="images/a4.jpg" style="position:absolute;">
+				</li>
+				<li class="dd2 move">
+                    <span >吉林市北大壶滑雪场</span>
+					<img  src="images/a7.jpg" style="position:absolute;">
+				</li>
+				<li class="dd3 move">
+                    <span>古典的吉林西站</span>
+					<img src="images/a13.jpg" style="position:absolute;">
+				</li>
+				<li class="dd3 move">
+                    <span>吉林乌拉公园</span>
+					<img src="images/a9.jpg" style="position:absolute;">
+				</li>
+				<li class="dd1 move">
+                    <span>松花江渡船</span>
+					<img src="images/a15.jpg" style="position:absolute;">
+				</li>
+				<li class="dd1 move">
+                    <span>吉林雾凇</span>
+					<img src="images/a14.jpg" style="position:absolute;">
+				</li>
+				<li class="dd4 move">
+                    <span>松花江河灯文化节</span>
+					<img src="images/a11.jpg" style="position:absolute;">
+				</li>
+				<li class="dd3 move">
+                    <span>清水绿带</span>
+					<img src="images/a1.jpg" style="position:absolute;">
+				</li>
+				<li class="dd3 move">
+                    <span>炮台山遗址</span>
+					<img src="images/a5.jpg" style="position:absolute;">
+				</li>
+			</ul>
+		</div>
+
+		<div class="tiao">
+			<div class="tia">
+			</div>
+		</div>
+
+		<div class="ww">
+			<span>DO  YOU  LIKE  JILIN  CITY ?</span>
+			<button>YES</button>
+		</div>
+
+		<div class="mp">
+			<div class="mp-box">
+				<img src="imgages/mplayer_error.png" alt="music cover" class="mp-cover">
+				<div class="mp-info">
+					<p class="mp-name">燕归巢</p>
+					<p class="mp-singer">许嵩</p>
+					<p><span class="mp-time-current">00:00</span>/<span class="mp-time-all">00:00</span></p>
+				</div>
+				<div class="mp-btn">
+					<button class="mp-prev" title="上一首"></button>
+					<button class="mp-pause" title="播放"></button>
+					<button class="mp-next" title="下一首"></button>
+					<button class="mp-mode" title="播放模式"></button>
+					<div class="mp-vol">
+						<button class="mp-vol-img" title="静音"></button>
+						<div class="mp-vol-range" data-range_min="0" data-range_max="100" data-cur_min="80">
+							<div class="mp-vol-current"></div>
+							<div class="mp-vol-circle"></div>
+						</div>
+					</div>
+				</div>
+				<div class="mp-pro">
+					<div class="mp-pro-current"></div>
+				</div>
+				<div class="mp-menu">
+					<button class="mp-list-toggle"></button>
+					<button class="mp-lrc-toggle"></button>
+				</div>
+			</div>
+			<button class="mp-toggle">
+				<span class="mp-toggle-img"></span>
+			</button>
+			<div class="mp-lrc-box">
+				<ul class="mp-lrc"></ul>
+			</div>
+			<button class="mp-lrc-close"></button>
+			<div class="mp-list-box">
+				<ul class="mp-list-title"></ul>
+				<table class="mp-list-table">
+					<thead>
+						<tr>
+							<th>歌名</th>
+							<th>歌手</th>
+							<th>时长</th>
+						</tr>
+					</thead>
+					<tbody class="mp-list"></tbody>
+				</table>
+			</div>
+		</div>
+
+		<div class="footer">
+			<span>WELCOME&nbsp; TO&nbsp; JILIN&nbsp; CITY</span>
+			<button style="margin-left:-255px;">北国江城</button>
+			<button style="margin-left:-155px;">雾凇之都</button>
+			<button style="margin-left:-55px;">吉林乌拉</button>
+			<ul class="foot">
+				<li>船营区</li>
+				<li>龙潭区</li>
+				<li>昌邑区</li>
+				<li>丰满区</li>
+				<li>永吉县</li>
+				<li>磐石市</li>
+				<li>桦甸市</li>
+				<li>蛟河市</li>
+				<li>舒兰市</li>
+			</ul>
+			<ul class="fo">
+				<li>手机版</li>
+				<li>管理登录</li>
+				<li>联系我们</li>
+			</ul>
+			<a class="ff">@美丽吉林市欢迎你们</a>
+		</div>
+	</div>
+<script type="text/javascript" src="js/index.js"></script>
+<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+<script type="text/javascript" src="js/fragment.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/mplayer.js"></script>
+<script src="js/mplayer-list.js"></script>
+<script src="js/mplayer-functions.js"></script>
+<script src="js/jquery.nstSlider.min.js"></script>
+<script>
+var modeText = ['顺序播放','单曲循环','随机播放','列表循环'];
+var player = new MPlayer({
+	// 容器选择器名称
+	containerSelector: '.mp',
+	// 播放列表
+	songList: mplayer_song,
+	// 专辑图片错误时显示的图片
+	defaultImg: 'imgages/mplayer_error.png',
+	// 自动播放
+	autoPlay: true,
+	// 播放模式(0->顺序播放,1->单曲循环,2->随机播放,3->列表循环(默认))
+	playMode:0,
+	playList:0,
+	playSong:0,
+	// 当前歌词距离顶部的距离
+	lrcTopPos: 34,
+	// 列表模板，用${变量名}$插入模板变量
+	listFormat: '<tr><td>${name}$</td><td>${singer}$</td><td>${time}$</td></tr>',
+	// 音量滑块改变事件名称
+	volSlideEventName:'change',
+	// 初始音量
+	defaultVolume:80
+}, function () {
+	// 绑定事件
+	this.on('afterInit', function () {
+		console.log('播放器初始化完成，正在准备播放');
+	}).on('beforePlay', function () {
+		var $this = this;
+		var song = $this.getCurrentSong(true);
+		var songName = song.name + ' - ' + song.singer;
+		console.log('即将播放'+songName+'，return false;可以取消播放');
+	}).on('timeUpdate', function () {
+		var $this = this;
+		console.log('当前歌词：' + $this.getLrc());
+	}).on('end', function () {
+		var $this = this;
+		var song = $this.getCurrentSong(true);
+		var songName = song.name + ' - ' + song.singer;
+		console.log(songName+'播放完毕，return false;可以取消播放下一曲');
+	}).on('mute', function () {
+		var status = this.getIsMuted() ? '已静音' : '未静音';
+		console.log('当前静音状态：' + status);
+	}).on('changeMode', function () {
+		var $this = this;
+		var mode = modeText[$this.getPlayMode()];
+		$this.dom.container.find('.mp-mode').attr('title',mode);
+		console.log('播放模式已切换为：' + mode);
+	});
+});
+
+
+$(document.body).append(player.audio); // 测试用
+
+setEffects(player);
+
+
+</script>
+</body>
+</html>

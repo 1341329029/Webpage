@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<title>北京大学</title>
+<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+<div class="main">
+
+	<div class="list"style="left:-720px">
+			<img src="images/5.jpg"width="720px"height="450px">
+			<img src="images/1.jpg"width="720px"height="450px">
+			<img src="images/2.jpg"width="720px"height="450px">
+			<img src="images/3.jpg"width="720px"height="450px">
+			<img src="images/4.jpg"width="720px"height="450px">
+			<img src="images/5.jpg"width="720px"height="450px">
+			<img src="images/1.jpg"width="720px"height="450px">
+	</div>
+	<div class="button">
+		<span index="1"></span>
+		<span index="2"></span>
+		<span index="3"></span>
+		<span index="4"></span>
+		<span index="5"></span>
+	</div>
+</div>
+</body>
+</html>

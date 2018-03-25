@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<title>大学</title>
+</head>
+<script type="text/javascript" src="js/jquery-2.1.4.js"></script>
+<script>
+	var _index=0;
+ 	var time;
+ 	function autoplay(){
+ 		$(".right .but span").removeClass("hover");
+ 		$(".right .but span").eq(_index).addClass("hover");
+ 		$(".right .nav_con .pic img").eq(_index).fadeIn().siblings().fadeOut();
+ 	}
+ 	function change(){
+ 		_index++;
+ 		if(_index>9){
+ 			_index=0;
+ 		}
+ 		autoplay();
+ 	}
+ 	time=setInterval(change,1000);
+ 	$(".right .nav_con .but span").hover(function(){
+		_index=$(this).index();
+		autoplay();
+		clearInterval(time);
+	},function(){
+		time=setInterval(change,3000);
+	})
+</script>
+<body>
+	<div class="page">
+		<div class="main">
+			<div class="logo">
+            	<img src="images/logo.jpg" style="margin-left:5px;margin-top:40px;">
+			</div>
+			<div class="list">
+				<ul>
+					<li><a href="../主页/index.html">首页</a></li>
+					<li>学校简介</li>
+					<li>风景与活动</li>
+					<li>新闻公告</li>
+					<li>联系我们</li>
+				</ul>
+			</div>
+			<div class="Con">
+				<img src="images/1.png">
+			</div>
+			<div class="title">
+				<div class="text1">
+					>> 学生活动/STUDENT
+				</div>
+				<div class="text2">
+					>> 校徽/SCHOOL
+				</div>
+			</div>
+			<div class="form">
+				<img src="images/61d.jpg">
+				<span class="ti1">大一新生开学军训</span>
+				<span class="ti2">军训的目的是通过严格的军事训练提高学生的政治觉悟，激发爱国热情，发扬革命英雄主义精神，培养艰苦奋斗，刻苦耐劳的坚强毅力和集体主义精神，增强国防观念和组织纪律性，养成良好的学风和生活作风，掌握基本军事知识和技能。
+				</span>
+			</div>
+			<div class="form2">
+				<div class="right lef">
+		            <div class="rig_top">
+			        	<div class="nav_con">
+				        	<div class="pic">
+					        	<img src="images/1.jpg" style="display:block" alt="">
+					            <img src="images/2.jpg" alt="">
+					            <img src="images/3.jpg" alt="">
+					            <img src="images/4.jpg" alt="">
+					            <img src="images/5.jpg" alt="">
+					            <img src="images/6.jpg" alt="">
+					            <img src="images/7.jpg" alt="">
+					            <img src="images/8.jpg" alt="">
+					            <img src="images/9.jpg" alt="">
+					            <img src="images/10.jpg" alt="">
+				            </div>
+			             </div>
+		            </div>
+	            </div>
+			</div>
+			<div class="form" style="margin-top:30px;">
+				<img src="images/99.jpg">
+				<span class="ti1">义务植树活动</span>
+				<span class="ti2">北华大学计算机科学技术学院在龙潭山开展义务植树活动。活动中，青年志愿者们发扬了“奉献、友爱、互助、进步”的志愿者精神，展示了该校青年志愿者积极奉献，吃苦耐劳的可贵品质，展现了该校大学生良好的精神风貌。</span>
+			</div>
+			<div class="text2" style="margin-top:10px;">
+				>> 新闻公告/NEWS
+			</div>
+			<div class="text">
+			    <span style="border-bottom:1px solid #02b2b5;border-bottom-style:dashed;">
+			    	严干贵教授荣获“吉林市特等...<a style="float:right;">2017-4-28</a>
+			    </span>
+			    <span style="border-bottom:1px solid #02b2b5;border-bottom-style:dashed;">
+			    	化工学院“思政大讲堂”开讲<a style="float:right;">2017-4-28</a>
+			    </span>
+			    <span>召开西藏专项招录工作会议<a style="float:right;">2017-4-28</a></span>
+			</div>
+			<div class="zuihou">
+			    <div class="ti">
+			    	>> 校园风光/VIEW
+			    </div>
+			    <ul>
+			    	<li><img src="images/c6.jpg"></li>
+			    	<li><img src="images/02.jpg"></li>
+			    	<li><img src="images/23.jpg"></li>
+			    	<li><img src="images/fc0.jpg"></li>
+			    </ul>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<ul class="ul1">
+			<li>首页<span>|</span></li>
+			<li>学校概况<span>|</span></li>
+			<li>联系我们</li>
+		</ul>
+		<ul class="ul2">
+			<li>手机版<span>|</span></li>
+			<li>网页设计大赛工作人员<span>|</span></li>
+			<li>管理登录</li>
+		</ul>
+	</div>
+</body>
+</html>

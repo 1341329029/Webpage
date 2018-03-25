@@ -1,0 +1,214 @@
+<!doctype html>
+<html>
+<head>
+<title>吉林大学</title>
+<link rel="stylesheet" type="text/css" href="css/reed1.css">
+</head>
+<body>
+    <div class="main">
+	     <div class="main1">
+	          <ul class="po">
+     	 	 	   <li><a href="index.html">学生</a><span>|</span></li>
+     	 	 	   <li><a href="index.html">教职工</a><span>|</span></li>
+     	 	 	   <li><a href="index.html">校友</a><span>|</span></li>
+     	 	 	   <li><a href="index.html">考生与访客</a></li>
+     	 	  </ul>
+				<ul class="por2">
+     	 	 	<li><a href="index.html">学生</a><span>|</span></li>
+     	 	 	<li><a href="index.html">教职工</a><span>|</span></li>
+     	 	 	<li><a href="index.html">校友</a><span>|</span></li>
+     	 	 	<li><a href="index.html">考生与访客</a></li>
+     	 	 	
+				</ul>
+			     <div class="poi">
+				 <input type="text">
+			<span><img src="images/7.png"width="21px"height="22px"> </span>
+				
+				 </div>
+				 <div class="ert">
+					
+				</div>
+				<div class="qwe">
+					<div class="qwe5">
+					<h1>吉林大学<h1>
+					</div>
+					
+				  <ul class="por">
+     	 	 	     <li><a href="index.html">学校概况^</a></li>
+     	 	 	     <li><a href="index.html">机构设置^</a></li>
+     	 	 	     <li><a href="index.html">人才培养^</a></li>
+     	 	 	     <li><a href="index.html">科学研究^</a></li>
+     	 	 	     <li><a href="index.html">学科建设^</a></li>
+     	 	 	     <li><a href="index.html">队伍建设^</a></li>
+     	 	 	     <li><a href="index.html">对外交流^</a></li>
+				     <li><a href="index.html">招生就业^</a></li>
+					 
+				 </ul>
+			
+				</div>
+
+
+				
+				</div>			
+	
+	<div class="main2">
+<center>	<img src="images/5.jpg"width="1100px"height="500px"></center>
+		
+	</div>
+	<div class="main3">
+		<div class="wer">
+		<p><b>焦点新闻</b><em>NEWS</em></p>
+
+		</div>
+			<div class="wert">
+			<img src="images/8.jpg"width="290px"height="139px">
+			<a href="index.html"> 吉林省委常委、统战部部长姜治莹来... </a>
+			<span>2016-10-14</span>
+			</div>
+			<div class="wert1">
+			<img src="images/2.jpg"width="290px"height="139px">
+			<a href="index.html">中国科学院院士徐如人及其家人像吉...</a>
+			<span>2016-10-11</span>
+			</div>
+			<div class="wert2">
+			<img src="images/1.jpg"width="290px"height="139px">
+			<a href="index.html">吉林大学召开本科教学工作审核评估...</a>
+			<span>2016-10-11</span>
+			</div>
+			<div class="wert3">
+			<img src="images/9.png">
+			</div>
+			
+	</div>
+   <div class="main4">
+     <div class="main41">
+		<div class="main411">
+		<p><b>校园快讯 </b><em>Campus News</em><span>more></span></p>
+		</div>
+		<div class="main412">
+			  <ul class="main4121">
+     	 	 	     <li><a href="index.html">> 吉林大学举行国家社科基金重大项目“马克思主义政治哲学重大基础理论问...<span>2016/10/14</span></a></li>
+     	 	 	     <li><a href="index.html">> 吉林大学初步完成劳模管理平台信息采集工作<span>2016/10/14</span></a></li>
+     	 	 	     <li><a href="index.html">> 双引擎助推双一流　新态势引领新发展 <span>2016/10/13</span></a></li>
+     	 	 	     <li><a href="index.html">> 吉林大学举办党风廉政建设专题报告会 <span>2016/10/13</span></a></li>
+     	 	 	     <li><a href="index.html">> 吉林大学2016年纪检监察干部专题培训班开班 <span>2016/10/13</span></a></li>
+     	 	 	     <li><a href="index.html">> 聚焦本科教学︱全面推进本科教育教学改革 ，提高人才培养质量 <span>2016/10/12</span></a></li>
+     	 	 	     <li><a href="index.html">> 聚焦本科教学︱杨振斌、李元元等校领导深入本科生课堂了解本科教学情况 <span>2016/10/12</span></a></li>
+				     <li><a href="index.html">> 吉林大学承办吉林省省属高校《大学生心理健康》慕课培训会<span>2016/10/12</span></a></li>
+					 <li><a href="index.html">> 聚焦本科教学|构筑多元化教学发展平台，服务教师教学发展<span>2016/10/12</span></a></li>
+					 <li><a href="index.html">> 聚焦本科教学︱吉大人应该知道的——关于“本科教学评估”<span>2016/10/11</span></a></li>
+				 </ul>
+		</div>
+	 </div>
+	 <div class="main42">
+		<div class="main421">
+			<a href="index.html"><span> 通知公告 <em>Announcement</em></span></a>
+		</div>
+		<div class="main422">
+			 <ul class="main4221">
+     	 	 	     <li><span>>[校庆70周年]</span><a href="index.html">吉林大学70周年校庆公告</a></li>
+     	 	 	     <li><span>>[校庆70周年]</span><a href="index.html">吉林大学70周年校庆公告</a></li>
+     	 	 	     <li><a href="index.html">>关于评选2016年“唐敖庆化学奖学金”…</a></li>
+     	 	 	     <li><a href="index.html">> 吉林大学人才工作办公室工作人员招聘…</a></li>
+     	 	 	     <li><a href="index.html">>吉林省大学生跨境电子商务创业培训班…</a></li>
+     	 	 	     <li><a href="index.html">>《白求恩之歌》歌词征集启事</a></li>
+     	 	 	     <li><a href="index.html">>关于公布吉林大学2016年秋季网络教育…</a></li>
+				     <li><a href="index.html">>关于做好2016年秋季网络教育招生工作…</a></li>
+					 <li><a href="index.html">>艺术学院2016年公开招聘教师启事</a></li>
+				     <li><a href="index.html">>关于发布吉林省大学生跨境电子商务创…</a></li>
+				 </ul>
+		</div>
+	 </div>
+	 <div class="main43">
+		<div class="main431">
+		   <p><b>  学术信息 </b>	 <em>Academic information</em><span>more></span></p>
+		</div>
+		<div class="main432">
+			<a href="index.html"><b>美国西部的骑士：有关18世纪游牧政治...</b></a>
+			<p>主讲人：赛维林.福尔斯<br/>
+                时间：2016-10-26 15:00<br/>
+                地点：匡亚明楼第一会议室</p>
+		</div>
+		<div class="main4335">
+				<div class="main43351">
+					<div class="main433511">
+
+					</div>
+				</div>
+				<div class="main43352">
+					<div class="main433521">
+
+					</div>
+				</div>
+				<div class="main43353">
+					<div class="main433531">
+						<div class="main4335311">
+								<span><center>22</center></span>
+						</div>
+						<div class="main4335312">
+
+						</div>
+					</div>
+					 
+				</div>
+		</div>
+	</div>
+	<div class="main44">
+			<div class="main441">
+				<a href="index.html"> <b>  媒体吉大 <em> Media Jida </em></b></a>
+				 <ul class="main4411">
+     	 	 	     <li><span>[长春日报]</span><a href="index.html">吉大一院医护人员变身“快…</a></li>
+     	 	 	     <li><span>[新华网]</span><a href="index.html">“第五届新闻史论青年论坛…</a></li>
+     	 	 	     <li><span>[内蒙古新闻网]</span><a href="index.html"> 创新校地合作模式 自治区…</a></li>
+     	 	 	     <li><span>[光明网]</span><a href="index.html"> 吉大将设500个在编专职科…</a></li>
+					  <li><span>[吉林日报]</span><a href="index.html"> 2016年度“博新计划”资助…</a></li>
+     	 	 	     <li><span>[吉林日报]</span><a href="index.html">吉大力旺专项奖颁奖</a></li>
+				 </ul>
+		    </div>
+	</div>
+	<div class="main45">
+		<div class="main451">
+			 <p><b>  快速链接 </b>	 <em>Quick Links</em></p>
+
+		</div>
+		<div class="main452">
+					<ul class="main4511">
+						<li><a href="index.html">信息公开</a></li>
+     	 	 			<li><a href="index.html"> 校长在线</a></li>
+     	 	 			<li><a href="index.html">招才纳贤</a></li>
+     	 	 			<li><a href="index.html"> 吉大图库</a></li>
+     	 	 			<li><a href="index.html">图书馆</a></li>
+     	 	 			 <li><a href="index.html"> 吉大校友</a></li>
+     	 	 			
+					</ul>
+					<ul class="main4512">
+						<li><a href="index.html">  校园文化</a></li>
+     	 	 			<li><a href="index.html"> 成果转化</a></li>
+     	 	 			<li><a href="index.html">采购信息</a></li>
+     	 	 			<li><a href="index.html">牡丹园</a></li>
+     	 	 			<li><a href="index.html">邮件系统</a></li>
+     	 	 			 <li><a href="index.html">书记信箱</a></li>
+     	 	 			
+					</ul>
+					<ul class="main4513">
+						<li><a href="index.html">校长信箱</a></li>
+     	 	 			<li><a href="index.html">新闻中心</a></li>
+     	 	 			<li><a href="index.html">博物馆</a></li>
+     	 	 			<li><a href="index.html">一周讯息</a></li>
+     	 	 			<li><a href="index.html">校内办公</a></li>
+     	 	 			 <li><a href="index.html">服务指南</a></li>
+     	 	 			
+					</ul>
+		</div>
+		<div class="main453">
+
+		</div>
+	</div>
+   </div>
+  <div class="main5">
+  <img src="images/10.png"width="1100px"height="180px">
+  </div>
+  </div>
+</div>
+</body>
+</html>

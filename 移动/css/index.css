@@ -1,0 +1,202 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-decoration: none;
+}
+html,body{
+	font-size: 62.5%;
+}
+.clearfix::after{
+	content: "";
+	clear: both;
+	display: block;
+	height: 0;
+}
+.title{
+	margin: 0rem 1.5rem;
+	/*border:1px solid #000;*/
+	font-size: 2.3rem;
+	color: #323232;
+	display: block;
+	line-height: 3.721rem;
+	background-color: #fff;
+}
+.doctor{
+	margin:0rem 1.5rem;
+	position: relative;
+}
+.doctor .doctor_information{
+	padding:1rem 1rem 1rem 5rem;
+	margin: 1rem 0rem;
+}
+.doctor .doctor_information .doctor_img{
+	width: 4rem;
+	height: 4rem;
+	border-radius: 2rem;
+	background-color: #ccc;
+	position: absolute;
+	top: 0.5rem;
+	left: 0rem;
+	float: left;
+}
+.doctor .doctor_information .doctor_infor{
+	padding: 0rem 0rem;
+	float: left;
+}
+.doctor .doctor_information .doctor_infor span{
+	font-size: 1.5rem;
+	color: #999;
+}
+.doctor .doctor_information .doctor_infor .doctor_username{
+	color: #323232;
+}
+.doctor .doctor_information .doctor_infor .doctor_time{
+	font-size: 1.2rem;
+}
+.doctor .doctor_information .guanzhu{
+	width: 5.6rem;
+	height: 2.4rem;
+	background-image: url(../images/Group21@2x.png);
+	background-size: cover;
+	float: right;
+	color: #39D167;
+	font-size: 1.4rem;
+	line-height: 2.4rem;
+	text-align: center;
+}
+.doctor .content_text{
+	font-size: 1.5rem;
+	color: #666;
+	line-height: 2rem;
+	text-align: justify;
+	margin:1rem 0rem;
+}
+.doctor .content_title{
+	font-size: 1.7rem;
+	color: #666;
+	line-height: 2.4rem;
+}
+.doctor .read_num{
+	font-size: 1.5rem;
+	color: #c2c2c2;
+	line-height: 1.5rem;
+	margin: 1rem 0rem;
+}
+.doctor .share{
+	width: 100%;
+	margin: 1rem 0rem;
+}
+.doctor .share li{
+	float: left;
+	width: 7rem;
+	height: 3.6rem;
+	margin: 0.2rem 0 0 0.5rem;
+}
+.doctor .share li img{
+	width: 100%;
+}
+.pinlun_box{
+	width: 100%;
+	float: left;
+	border-top:0.5rem solid #F1F1F1;
+	background-color: #fff;
+}
+.pinlun_box .ping_title{
+	float: left;
+	font-size: 1.5rem;
+	color: #666;
+	margin: 1rem;
+}	
+.pinlun_box .pinglun{
+	padding:1rem 1rem 1rem 5rem;
+	margin: 3rem 0rem;
+	border-top:0.1rem solid #E7E7E7;
+	position: relative;
+}
+.pinlun_box .pinglun .pinglun_img{
+	width: 4rem;
+	height: 4rem;
+	border-radius: 2rem;
+	background-color: #ccc;
+	position: absolute;
+	top: 1rem;
+	left: 1rem;
+	float: left;
+}
+.pinlun_box .pinglun .pinglun_infor{
+	padding: 0rem 1rem;
+	display: block;
+	float: left;
+}
+.pinlun_box .pinglun .pinglun_infor span{
+	font-size: 1.5rem;
+	color: #999;
+}
+.pinlun_box .pinglun .pinglun_infor img{
+	width: 8rem;
+	height: 1.6rem;
+	margin: 0rem 0rem;
+}
+.pinlun_box .pinglun .pinglun_infor .pinglun_username{
+	color: #323232;
+}
+.pinlun_box .pinglun .pinglun_infor .pinglun_time{
+	font-size: 1.2rem;
+}
+.pinlun_box .pinglun .guanzhu{
+	width: 5.6rem;
+	height: 2.4rem;
+	background-image: url(../images/Group15@2x.png);
+	background-size: cover;
+	float: right;
+	display: block;	
+}
+.pinlun_box .pinglun .pinglun_text{
+	position: absolute;
+	text-align: justify;
+	/*background-color: red;*/
+	top: 4rem;
+	right: 1rem;
+	padding: 1rem 2rem 1rem 6rem;
+}
+.pinlun_box .pinglun .pinglun_text .else{
+	width: 100%;
+	color: #3F3F3F;
+	background-color: #F8F8F8;
+	margin: 1rem 0rem;
+	padding: 1rem 0rem;
+	font-size: 1.4em;
+	text-align: justify;
+	float: left;
+}
+.pinlun_box .pinglun .pinglun_text .else p .peo{
+	color: #666;
+	float: left;
+}
+.foot{
+	width: 100%;
+	float: left;
+	margin: 8rem 0rem;
+	background-color: #F8F8F8;
+	position: relative;
+}
+.foot input{
+	width: 60%;
+	padding: 0.5rem 0rem 0.5rem 3rem;
+	margin: 1rem;
+	font-size: 1.2rem;
+	border:0.1rem solid #E7E7E7;
+	color: #999;
+	background-image: url(../images/20171015162310.png);
+	background-repeat: no-repeat;
+
+}
+.foot .zan{
+	width: 3rem;
+	height: 3rem;
+	float: right;
+	position: absolute;
+	top: 0.6rem;
+	right: 1.5rem;
+}

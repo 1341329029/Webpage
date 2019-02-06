@@ -1,0 +1,11 @@
+$(function(){
+    $('.navbar-brand').mouseover(function(){
+        $(this).addClass('font_color_after').removeClass('font_color_before');
+    })
+    $('.navbar-brand').mouseout(function(){
+        $(this).addClass('font_color_before').removeClass('font_color_after');
+    })
+    $('.nav_button').click(function(){
+        $('.xs_list').slideToggle("slow");
+    })
+})

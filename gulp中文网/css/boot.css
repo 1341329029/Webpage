@@ -1,0 +1,178 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    border:0px;
+}
+.container{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+a,a:hover{
+    text-decoration: none;
+}
+.row{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+.font_color_before{
+    color:#fff;
+}
+.font_color_after{
+    color:#efefef;
+}
+.nav_bar{
+    background-color: #cf4646;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: block;
+    z-index: 3;
+    float: left;
+}
+.nav_bar-brand{
+    height: 18px;
+    text-align: center;
+    position: absolute;
+    top: 16px;
+    left:-15px;
+    font-size: 18px;
+    line-height: 18px; 
+    cursor: pointer;
+}
+.ll{
+    height: 50px;
+    z-index: 2;
+    position: relative;
+    float: left;
+    background-color: #cf4646;
+}
+.ll .nav_-brand{
+    height: 18px;
+    text-align: center;
+    position: absolute;
+    top: 16px;
+    left:-0px;
+    font-size: 18px;
+    line-height: 18px; 
+    cursor: pointer;
+}
+.ll .nav_button{
+    width:44px;
+    height: 34px;
+    border:1px solid #fff;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    margin-top: 5px;
+    z-index: 1;
+    background: url(../images/nav_button.png) no-repeat center;
+    background-size: 40px 30px
+}
+.nav_box{
+    height: 50px;
+    position: relative;
+    float: right;
+    padding-left: 127px;
+    z-index: 2;
+    background-color: #cf4646;
+}
+.nav_box ul{
+    float: right;
+}
+.nav_box ul li{
+    float: left;
+}
+.nav_box ul li a{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color:#fefefe;
+    padding: 10px 15px;
+    line-height: 50px;
+}
+.xs_list{
+    background-color: #cf4646;
+    position: relative;
+    z-index: 1;
+    border-top:1px solid #CA3131;
+    display: none;
+}
+.xs_list ul{
+    margin: 7.5px -15px;
+}
+.xs_list ul li a{
+    color: #e8e8e8;
+    line-height: 20px;
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+
+.jumbot{
+    background-color: #cf4646;
+    display: block;
+    float: left;
+    position: relative;
+}
+.lo_go{
+    width: 200px;
+    height: 122px;
+    background: url(../images/gulp-white-text.svg) no-repeat ;
+    background-size: cover;
+    margin: 80px auto 20px;
+}
+.jumbot span{
+    text-align: center;
+    display: block;
+    margin:  10px auto;
+    color: #fff;
+    font-size: 21px;
+    font-weight: 200;
+    line-height: 1.4;
+}
+.jumbot button{
+    display: block;
+    margin: 40px auto;
+    color: #eee;
+    border:2px solid #efbfbf;
+    /* margin-top: 26px; */
+    padding: 10px 16px;
+    font-size: 18px;
+    background-color: transparent;
+}
+.TEXT{
+    /* background-color: red; */
+    margin: 30px 0px ;
+}
+.text_box{
+    background-color: #fff;
+    display: block;
+}
+text{
+    margin: 0px;
+    padding: 0px;
+}
+.text h2{
+    display: block;
+    margin-top: 40px;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    line-height: 1.1;
+    color: #000;
+}
+.text p{
+    font-size: 18px;
+    font-size: 18px;
+}
+.foot{
+    margin: 20px 0px;
+}
+.foot p{
+    text-align: center;
+    color: #aaa;
+}
